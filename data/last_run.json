@@ -1,21 +1,16 @@
 {
   "date": "2026-10-14",
+  "backfill": false,
   "sources": {
-    "noolaham": {
+    "web": {
       "found": 0,
       "added": 0
     },
-    "openalex": {
-      "found": 199,
-      "added": 115
+    "wikipedia": {
+      "found": 120,
+      "added": 120
     }
   },
-  "stats": {
-    "openalex_raw": 719
-  },
-  "errors": [
-    "403 https://noolaham.org/wiki/api.php",
-    "403 https://noolaham.org/w/api.php",
-    "403 https://www.noolaham.org/wiki/api.php"
-  ]
+  "stats": {},
+  "errors": []
 }
