@@ -6,11 +6,27 @@
       "found": 0,
       "added": 0
     },
-    "wikipedia": {
-      "found": 120,
-      "added": 120
+    "ddg": {
+      "found": 10,
+      "added": 5
     }
   },
-  "stats": {},
-  "errors": []
+  "stats": {
+    "bing_raw": 140,
+    "ddg_raw": 20
+  },
+  "errors": [
+    "ddg 202 இலங்கை நடுகல்",
+    "ddg 202 இலங்கை பாறை ஓவியம்",
+    "ddg 202 ஈழம் தொல்லியல் பிராமி",
+    "ddg 202 Sri Lanka Tamil inscription",
+    "ddg 202 Sri Lanka Tamil Brahmi",
+    "ddg 202 Jaffna archaeology",
+    "ddg 202 Vanni archaeology Tamil",
+    "ddg 202 Trincomalee Tamil inscription",
+    "ddg 202 Sri Lanka hero stone",
+    "ddg 202 Sri Lanka rock art cave painting",
+    "ddg 202 Kantarodai archaeology",
+    "ddg 202 Tamil coins Sri Lanka archaeology"
+  ]
 }
