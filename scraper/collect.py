@@ -398,7 +398,9 @@ def bing_web():
             except ET.ParseError:
                 ERRORS.append(f"bing non-RSS reply for {q + w!r}")
                 continue
-            for it in root.iter("item"):
+            items = list(root.iter("item"))
+            STATS["bing_raw"] = STATS.get("bing_raw", 0) + len(items)
+            for it in items:
                 title = clean(it.findtext("title"))
                 desc = clean(it.findtext("description"))
                 link = it.findtext("link") or ""
@@ -423,6 +425,44 @@ def bing_web():
     return out
 
 
+def ddg_web():
+    """Fallback web search through DuckDuckGo's HTML endpoint."""
+    out = []
+    windows = [""] if not BACKFILL else [f" {y}" for y in range(CFG["from_year"], date.today().year + 1)]
+    pat = re.compile(r'<a[^>]+class="result__a"[^>]+href="([^"]+)"[^>]*>(.*?)</a>.*?'
+                     r'class="result__snippet"[^>]*>(.*?)</(?:a|div)>', re.S)
+    for q in CFG.get("web_queries", []):
+        for w in windows:
+            try:
+                r = requests.post("https://html.duckduckgo.com/html/", data={"q": q + w, "kl": "wt-wt"},
+                                  headers=BROWSER_UA, timeout=30)
+            except requests.RequestException as e:
+                ERRORS.append(f"ddg {e.__class__.__name__}")
+                continue
+            if r.status_code != 200:
+                ERRORS.append(f"ddg {r.status_code} {q + w}")
+                time.sleep(10)
+                continue
+            hits = pat.findall(r.text)
+            STATS["ddg_raw"] = STATS.get("ddg_raw", 0) + len(hits)
+            for href, t, snip in hits:
+                link = href
+                if "uddg=" in href:
+                    link = urllib.parse.unquote(urllib.parse.parse_qs(urllib.parse.urlparse(href).query).get("uddg", [href])[0])
+                title, desc = clean(t), clean(snip)
+                host = urllib.parse.urlparse(link).netloc.lower().replace("www.", "")
+                if not host or any(host.endswith(d) for d in CFG.get("web_skip_domains", [])):
+                    continue
+                if not relevant(title + " " + desc, need_place=True) or has_any(title, CFG.get("exclude_keywords", [])):
+                    continue
+                m = re.search(r"/(199[6-9]|20[0-3]\d)/", link)
+                out.append({"category": "Web Articles", "type": "Web page", "year": m.group(1) if m else "",
+                            "date": "", "title": title, "author": "", "publisher_source": host,
+                            "language": lang_of(title), "url": link, "notes": f"Web search: {q + w}."})
+            time.sleep(3)
+    return out
+
+
 def wikipedia():
     """Tamil and English Wikipedia articles on Sri Lankan Tamil inscriptions and archaeology."""
     out = []
@@ -434,9 +474,14 @@ def wikipedia():
             if not r:
                 continue
             for h in r.json().get("query", {}).get("search", []):
-                text = h["title"] + " " + clean(h.get("snippet", ""))
-                if relevant(text, need_place=True) and not has_any(h["title"], CFG.get("exclude_keywords", [])):
-                    titles.add(h["title"])
+                t, snip = h["title"], clean(h.get("snippet", ""))
+                if has_any(t, CFG.get("exclude_keywords", [])) or re.search(r"\d", t):
+                    continue
+                # inscription/archaeology word in the title, or a Sri Lankan place in the title
+                # with at least two topic words in the snippet
+                if (topic_hits(t) and has_any(t + " " + snip, CFG["place_keywords"])) or \
+                        (has_any(t, CFG["place_keywords"]) and len(set(topic_hits(snip))) >= 2):
+                    titles.add(t)
             time.sleep(1)
         for t in sorted(titles):
             r = get(api, params={"action": "query", "prop": "revisions", "titles": t, "rvlimit": 1,
@@ -454,7 +499,7 @@ def wikipedia():
     return out
 
 
-SOURCES = {"news": google_news, "web": bing_web, "wikipedia": wikipedia, "ezhuna": ezhuna,
+SOURCES = {"news": google_news, "web": bing_web, "ddg": ddg_web, "wikipedia": wikipedia, "ezhuna": ezhuna,
            "noolaham": noolaham, "openalex": openalex, "crossref": crossref}
 
 

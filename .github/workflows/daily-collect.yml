@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       only:
-        description: "Run only these sources (comma-separated: news,web,wikipedia,ezhuna,noolaham,openalex,crossref). Leave empty for all."
+        description: "Run only these sources (comma-separated: news,web,ddg,wikipedia,ezhuna,noolaham,openalex,crossref). Leave empty for all."
         required: false
         default: ""
       backfill:
