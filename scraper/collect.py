@@ -42,10 +42,15 @@ ERRORS = []  # http problems, written to data/last_run.json for diagnosis
 
 
 # ----------------------------------------------------------------- helpers
-def get(url, **kw):
+BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                            "(KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+              "Accept": "application/json,text/html;q=0.9,*/*;q=0.8"}
+
+
+def get(url, browser=False, **kw):
     for attempt in range(3):
         try:
-            r = requests.get(url, headers=UA, timeout=30, **kw)
+            r = requests.get(url, headers=BROWSER_UA if browser else UA, timeout=30, **kw)
             if r.status_code == 200:
                 return r
             if r.status_code in (429, 503):
@@ -212,7 +217,7 @@ NOOLAHAM_API = NOOLAHAM_APIS[0]
 def noolaham_api():
     """Return the first Noolaham API endpoint that answers with JSON."""
     for api in NOOLAHAM_APIS:
-        r = get(api, params={"action": "query", "meta": "siteinfo", "format": "json"})
+        r = get(api, browser=True, params={"action": "query", "meta": "siteinfo", "format": "json"})
         if r is not None:
             try:
                 r.json()
@@ -249,7 +254,7 @@ def noolaham():
         return out
     for q in CFG["noolaham_queries"]:
         for offset in range(0, 1000, 500):
-            r = get(api, params={"action": "query", "list": "search", "srsearch": q,
+            r = get(api, browser=True, params={"action": "query", "list": "search", "srsearch": q,
                                           "srlimit": 500, "sroffset": offset, "srnamespace": 0,
                                           "format": "json"})
             if not r:
@@ -267,7 +272,7 @@ def noolaham():
     titles = sorted(titles)
     for i in range(0, len(titles), 40):
         batch = titles[i:i + 40]
-        r = get(api, params={"action": "query", "prop": "revisions", "rvprop": "content",
+        r = get(api, browser=True, params={"action": "query", "prop": "revisions", "rvprop": "content",
                                       "rvslots": "main", "titles": "|".join(batch), "format": "json"})
         if not r:
             continue
@@ -301,7 +306,7 @@ def openalex():
     out = []
     for q in CFG["paper_queries"]:
         url = ("https://api.openalex.org/works?per-page=100&search=" + urllib.parse.quote(q)
-               + f"&filter=from_publication_year:{CFG['from_year']}&mailto=bibliography@example.org")
+               + f"&filter=publication_year:>{CFG['from_year'] - 1}")
         r = get(url)
         if not r:
             continue
