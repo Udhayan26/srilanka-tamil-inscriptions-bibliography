@@ -92,6 +92,17 @@ def relevant(text, need_place=True):
     return has_any(text, CFG["place_keywords"]) if need_place else True
 
 
+def paper_relevant(title, abstract):
+    """Scholarly works: topic word in the title and Sri Lanka in title/abstract,
+    or Sri Lanka in the title and at least two topic words in the abstract."""
+    if has_any(title, CFG.get("exclude_keywords_papers", [])):
+        return False
+    t_topic, t_place = bool(topic_hits(title)), has_any(title, CFG["place_keywords"])
+    if t_topic and (t_place or has_any(abstract, CFG["place_keywords"])):
+        return True
+    return t_place and len(set(topic_hits(abstract))) >= 2
+
+
 def year_ok(y):
     return not y or (y.isdigit() and int(y) >= CFG["from_year"])
 
@@ -316,7 +327,7 @@ def openalex():
         for w in results:
             title = clean(w.get("title") or "")
             abstract = " ".join((w.get("abstract_inverted_index") or {}).keys())
-            if not title or not relevant(title + " " + abstract, need_place=True):
+            if not title or not paper_relevant(title, abstract):
                 continue
             authors = ", ".join(a["author"]["display_name"] for a in w.get("authorships", [])[:6])
             venue = ((w.get("primary_location") or {}).get("source") or {}).get("display_name") or ""
@@ -342,7 +353,7 @@ def crossref():
         for it in r.json().get("message", {}).get("items", []):
             title = clean((it.get("title") or [""])[0])
             abstract = clean(it.get("abstract", ""))
-            if not title or not relevant(title + " " + abstract, need_place=True):
+            if not title or not paper_relevant(title, abstract):
                 continue
             parts = (it.get("issued") or {}).get("date-parts") or [[None]]
             y = str(parts[0][0] or "")

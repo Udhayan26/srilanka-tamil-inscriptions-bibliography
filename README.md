@@ -31,7 +31,7 @@ Every Monday, GitHub Actions runs `scraper/collect.py`, which searches:
 
 - **Google News** (Tamil and English): newspaper reports, filed under *Newspaper Articles*
 - **Ezhuna (எழுநா)**: online magazine articles, filed under *Magazines & Journals*
-- **Noolaham (நூலகம்)**: digitised books, magazines and newspapers
+- **Noolaham (நூலகம்)**: digitised books, magazines and newspapers. Noolaham currently blocks automated access (HTTP 403), so this source adds nothing until they allow it. Its entries in the workbook were collected by hand.
 - **OpenAlex** and **Crossref**: scholarly articles and books, filed under *Research Papers* / *Books*
 
 New, relevant items that aren't already in the data are appended, the Excel is rebuilt, and the change is committed.

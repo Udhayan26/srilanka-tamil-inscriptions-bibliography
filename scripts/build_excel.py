@@ -39,8 +39,16 @@ THEMES = {
 
 
 def norm_title(t):
-    t = re.sub(r"\(.*?\)", "", t or "")
+    t = t or ""
+    stripped = re.sub(r"\(.*?\)", "", t)
+    if re.sub(r"[\W_]+", "", stripped):  # keep parenthesised text when it is the whole title
+        t = stripped
     return re.sub(r"[\W_]+", " ", t.lower()).strip()
+
+
+def norm_url(u):
+    u = (u or "").strip().replace("http://", "https://").replace("://www.", "://")
+    return u.rstrip("/").lower()
 
 
 def filled(rec):
@@ -60,22 +68,37 @@ def load_rows():
 
 
 def dedupe(rows):
+    # URLs cited by many rows are profile/listing pages; only article-like URLs identify a record
+    url_uses = {}
+    for r in rows:
+        url_uses[norm_url(r["url"])] = url_uses.get(norm_url(r["url"]), 0) + 1
     kept = []
     for r in rows:
         dup = None
+        a = norm_title(r["title"])
         for k in kept:
-            same_url = r["url"] and r["url"] == k["url"]
-            sim = difflib.SequenceMatcher(None, norm_title(r["title"]), norm_title(k["title"])).ratio()
-            if (same_url and sim > 0.55) or (sim > 0.9 and r["category"] == k["category"]):
+            b = norm_title(k["title"])
+            if not a or not b:
+                continue
+            same_url = r["url"] and norm_url(r["url"]) == norm_url(k["url"])
+            sim = difflib.SequenceMatcher(None, a, b).ratio()
+            auto_pair = r["source_file"].startswith("auto_") or k["source_file"].startswith("auto_")
+            article_url = same_url and url_uses.get(norm_url(r["url"]), 0) <= 2 and r["category"] == k["category"]
+            if (same_url and sim > 0.55) or article_url or (sim > 0.9 and (r["category"] == k["category"] or auto_pair)):
                 dup = k
                 break
         if dup is None:
             kept.append(r)
         else:
-            # keep the more complete record, fill gaps from the other
-            best, other = (r, dup) if filled(r) > filled(dup) else (dup, r)
+            # hand-collected rows win over auto-collected ones; otherwise keep the more complete record
+            r_auto, d_auto = r["source_file"].startswith("auto_"), dup["source_file"].startswith("auto_")
+            if r_auto != d_auto:
+                best, other = (dup, r) if r_auto else (r, dup)
+            else:
+                best, other = (r, dup) if filled(r) > filled(dup) else (dup, r)
+            skip = {"notes", "source_file", "category"} if other["source_file"].startswith("auto_") else {"source_file"}
             for key, val in other.items():
-                if not best.get(key) and val:
+                if key not in skip and not best.get(key) and val:
                     best[key] = val
             kept[kept.index(dup)] = best
     return kept
