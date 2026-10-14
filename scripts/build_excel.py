@@ -25,6 +25,7 @@ CATEGORIES = [
     ("Research Papers", "Research Papers"),
     ("Newspaper Articles", "Newspaper Articles"),
     ("Magazines/Journals", "Magazines & Journals"),
+    ("Web Articles", "Web Articles"),
 ]
 
 # Theme keywords (Tamil + English) used to tag every record.
@@ -184,7 +185,8 @@ def build():
     summary = wb.active
     summary.title = "Summary"
 
-    prefixes = {"Books": "BK", "Research Papers": "RP", "Newspaper Articles": "NW", "Magazines/Journals": "MG"}
+    prefixes = {"Books": "BK", "Research Papers": "RP", "Newspaper Articles": "NW", "Magazines/Journals": "MG",
+                "Web Articles": "WB"}
     for cat, sheet in CATEGORIES:
         ws = wb.create_sheet(sheet)
         write_table(ws, [r for r in records if r["category"] == cat], prefixes[cat])
@@ -266,7 +268,7 @@ def build_summary(ws, n):
             value="Records with no year yet are counted in the category totals but not in this period table.").font = Font(name="Arial", size=9, italic=True)
 
     ws.column_dimensions["A"].width = 30
-    for col in "BCDEF":
+    for col in "BCDEFG":
         ws.column_dimensions[col].width = 18
 
 
@@ -286,7 +288,7 @@ def build_sources(wb):
         ("", "", ""),
         ("Method", "Searched Tamil and English keywords (கல்வெட்டு, கல்வெட்டுகள், தமிழ், தொல்லியல், நடுகல், பாறை ஓவியம், inscription, Brahmi, epigraphy, hero stone, rock art, coins), opened catalogue and listing pages, recorded bibliographic details, then removed duplicates.", ""),
         ("Verification", "Rows whose Notes say 'to verify' have a missing or unconfirmed year, author or title; open the URL to confirm.", ""),
-        ("Updates", "The GitHub repository runs a weekly scraper that appends new items to data/raw/auto_*.tsv and rebuilds this workbook.", ""),
+        ("Updates", "The GitHub repository runs a daily scraper (news, web pages, Wikipedia, Ezhuna, OpenAlex, Crossref) that appends new items to data/raw/auto_*.tsv and rebuilds this workbook. A one-time backfill searched each year from 1996.", ""),
     ]
     for ri, row in enumerate(rows, 1):
         for ci, v in enumerate(row, 1):

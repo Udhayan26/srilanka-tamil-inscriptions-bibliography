@@ -1,0 +1,62 @@
+name: Daily bibliography update
+
+on:
+  schedule:
+    # Every day at 01:23 UTC (06:53 Sri Lanka / India time)
+    - cron: "23 1 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Run only these sources (comma-separated: news,web,wikipedia,ezhuna,noolaham,openalex,crossref). Leave empty for all."
+        required: false
+        default: ""
+      backfill:
+        description: "Backfill: search every year from 1996 to today (slow, about 1 hour). Use once, or after adding new keywords."
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bibliography-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect new items
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.only }}" ]; then ARGS="--only ${{ github.event.inputs.only }}"; fi
+          if [ "${{ github.event.inputs.backfill }}" = "true" ]; then ARGS="$ARGS --backfill"; fi
+          python scraper/collect.py $ARGS
+
+      - name: Rebuild Excel and CSV
+        run: python scripts/build_excel.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data output
+          if git diff --cached --quiet; then
+            echo "No new items today."
+          else
+            git commit -m "Daily update: $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push
+          fi

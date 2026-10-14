@@ -6,13 +6,16 @@ in any data/raw/*.tsv (same URL) are skipped, so it is safe to run repeatedly.
 
 Sources:
   - Google News RSS (Tamil + English)      -> Newspaper Articles
+  - Bing web search (RSS)                  -> Web Articles
+  - Wikipedia (Tamil + English)            -> Web Articles
   - Ezhuna (WordPress REST API)            -> Magazines/Journals
   - Noolaham digital library (MediaWiki)   -> Books / Magazines / Newspapers
   - OpenAlex (scholarly works)             -> Research Papers / Books
   - Crossref (scholarly works)             -> Research Papers / Books
 
 Every auto-collected row is marked "Auto-collected ... review" in Notes.
-Run:  python scraper/collect.py [--only news,ezhuna,noolaham,openalex,crossref]
+Run:  python scraper/collect.py [--only news,web,wikipedia,ezhuna,noolaham,openalex,crossref] [--backfill]
+      Daily runs cover the last week; --backfill searches each year from 1996 to today.
 """
 import argparse
 import csv
@@ -37,6 +40,7 @@ FIELDS = ["category", "type", "year", "date", "title", "author", "publisher_sour
 UA = {"User-Agent": "SL-Tamil-Inscriptions-Bibliography/1.0 (research bibliography; github.com/Udhayan26)"}
 TODAY = date.today().isoformat()
 TAMIL_RE = re.compile(r"[஀-௿]")
+BACKFILL = False  # set by --backfill: search every year since from_year instead of the last week
 STATS = {}   # raw counts per source, written to data/last_run.json
 ERRORS = []  # http problems, written to data/last_run.json for diagnosis
 
@@ -147,11 +151,19 @@ def append(source, rows, seen):
 
 
 # ----------------------------------------------------------------- sources
+def time_windows():
+    """Daily runs look at the last 7 days; a backfill walks every year since from_year."""
+    if not BACKFILL:
+        return [" when:7d"]
+    return [f" after:{y}-01-01 before:{y + 1}-01-01" for y in range(CFG["from_year"], date.today().year + 1)]
+
+
 def google_news():
     out = []
-    for q in CFG["news_queries"]:
+    jobs = [(q, w) for q in CFG["news_queries"] for w in time_windows()]
+    for q, window in jobs:
         hl, ceid = ("ta", "LK:ta") if TAMIL_RE.search(q) else ("en-LK", "LK:en")
-        url = ("https://news.google.com/rss/search?q=" + urllib.parse.quote(q)
+        url = ("https://news.google.com/rss/search?q=" + urllib.parse.quote(q + window)
                + f"&hl={hl}&gl=LK&ceid={ceid}")
         r = get(url)
         if not r:
@@ -371,14 +383,89 @@ def crossref():
     return out
 
 
-SOURCES = {"news": google_news, "ezhuna": ezhuna, "noolaham": noolaham, "openalex": openalex,
-           "crossref": crossref}
+def bing_web():
+    """General web pages (blogs, heritage sites, online articles) via Bing's RSS output."""
+    out = []
+    windows = [""] if not BACKFILL else [f" {y}" for y in range(CFG["from_year"], date.today().year + 1)]
+    for q in CFG.get("web_queries", []):
+        for w in windows:
+            r = get("https://www.bing.com/search", browser=True,
+                    params={"q": q + w, "format": "rss", "count": 50, "setlang": "en"})
+            if not r:
+                continue
+            try:
+                root = ET.fromstring(r.content)
+            except ET.ParseError:
+                ERRORS.append(f"bing non-RSS reply for {q + w!r}")
+                continue
+            for it in root.iter("item"):
+                title = clean(it.findtext("title"))
+                desc = clean(it.findtext("description"))
+                link = it.findtext("link") or ""
+                host = urllib.parse.urlparse(link).netloc.lower().replace("www.", "")
+                if any(host.endswith(d) for d in CFG.get("web_skip_domains", [])):
+                    continue
+                if not relevant(title + " " + desc, need_place=True) or has_any(title, CFG.get("exclude_keywords", [])):
+                    continue
+                y = ""
+                m = re.search(r"/(19[89]\d|20[0-3]\d)/", link) or re.search(r"\b(199[6-9]|20[0-3]\d)\b", desc[:40])
+                if m:
+                    y = m.group(1)
+                d = ""
+                try:
+                    d = parsedate_to_datetime(it.findtext("pubDate")).date().isoformat()
+                except Exception:
+                    pass
+                out.append({"category": "Web Articles", "type": "Web page", "year": y or d[:4], "date": d if not y else "",
+                            "title": title, "author": "", "publisher_source": host, "language": lang_of(title),
+                            "url": link, "notes": f"Web search: {q + w}."})
+            time.sleep(2)
+    return out
+
+
+def wikipedia():
+    """Tamil and English Wikipedia articles on Sri Lankan Tamil inscriptions and archaeology."""
+    out = []
+    for lang, queries in (("ta", CFG.get("wiki_queries_ta", [])), ("en", CFG.get("wiki_queries_en", []))):
+        api = f"https://{lang}.wikipedia.org/w/api.php"
+        titles = set()
+        for q in queries:
+            r = get(api, params={"action": "query", "list": "search", "srsearch": q, "srlimit": 50, "format": "json"})
+            if not r:
+                continue
+            for h in r.json().get("query", {}).get("search", []):
+                text = h["title"] + " " + clean(h.get("snippet", ""))
+                if relevant(text, need_place=True) and not has_any(h["title"], CFG.get("exclude_keywords", [])):
+                    titles.add(h["title"])
+            time.sleep(1)
+        for t in sorted(titles):
+            r = get(api, params={"action": "query", "prop": "revisions", "titles": t, "rvlimit": 1,
+                                 "rvdir": "newer", "rvprop": "timestamp", "format": "json"})
+            created = ""
+            if r:
+                for pg in r.json().get("query", {}).get("pages", {}).values():
+                    created = ((pg.get("revisions") or [{}])[0].get("timestamp") or "")[:10]
+            out.append({"category": "Web Articles", "type": "Encyclopedia article", "year": created[:4],
+                        "date": created, "title": t, "author": "Wikipedia contributors",
+                        "publisher_source": f"Wikipedia ({lang})", "language": "Tamil" if lang == "ta" else "English",
+                        "url": f"https://{lang}.wikipedia.org/wiki/" + urllib.parse.quote(t.replace(" ", "_")),
+                        "notes": "Date = page creation."})
+            time.sleep(0.5)
+    return out
+
+
+SOURCES = {"news": google_news, "web": bing_web, "wikipedia": wikipedia, "ezhuna": ezhuna,
+           "noolaham": noolaham, "openalex": openalex, "crossref": crossref}
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", default="", help="comma-separated subset of: " + ",".join(SOURCES))
+    ap.add_argument("--backfill", action="store_true",
+                    help="search year by year from from_year to today (slow; run once)")
     args = ap.parse_args()
+    global BACKFILL
+    BACKFILL = args.backfill
     chosen = [s for s in (args.only.split(",") if args.only else SOURCES) if s in SOURCES]
     seen = existing_urls()
     report = {}
@@ -393,7 +480,7 @@ def main():
         report[name] = {"found": len(rows), "added": added}
         print(f"  found {len(rows)}, added {added}")
     with open(os.path.join(ROOT, "data", "last_run.json"), "w", encoding="utf-8") as f:
-        json.dump({"date": TODAY, "sources": report, "stats": STATS, "errors": ERRORS[:50]}, f,
+        json.dump({"date": TODAY, "backfill": BACKFILL, "sources": report, "stats": STATS, "errors": ERRORS[:50]}, f,
                   ensure_ascii=False, indent=2)
     print(json.dumps(report, ensure_ascii=False))
 

@@ -1,5 +1,5 @@
 {
-  "_comment": "Edit these lists to change what the weekly scraper looks for. Topic keywords decide relevance; place keywords keep results to Sri Lanka for sources that are not Sri Lanka-specific.",
+  "_comment": "Edit these lists to change what the daily scraper looks for. Topic keywords decide relevance; place keywords keep results to Sri Lanka for sources that are not Sri Lanka-specific.",
   "topic_keywords_ta": [
     "கல்வெட்டு",
     "கல்வெட்டுகள்",
@@ -214,5 +214,47 @@
     "Ayurveda",
     "Sinhala Epigraphical Scripts",
     "Coastal Resilience"
+  ],
+  "web_queries": [
+    "இலங்கை தமிழ் கல்வெட்டு",
+    "யாழ்ப்பாணம் தொல்லியல்",
+    "இலங்கை நடுகல்",
+    "இலங்கை பாறை ஓவியம்",
+    "ஈழம் தொல்லியல் பிராமி",
+    "Sri Lanka Tamil inscription",
+    "Sri Lanka Tamil Brahmi",
+    "Jaffna archaeology",
+    "Vanni archaeology Tamil",
+    "Trincomalee Tamil inscription",
+    "Sri Lanka hero stone",
+    "Sri Lanka rock art cave painting",
+    "Kantarodai archaeology",
+    "Tamil coins Sri Lanka archaeology"
+  ],
+  "web_skip_domains": [
+    "youtube.com",
+    "facebook.com",
+    "instagram.com",
+    "x.com",
+    "twitter.com",
+    "pinterest.com",
+    "amazon.com",
+    "tiktok.com"
+  ],
+  "wiki_queries_ta": [
+    "இலங்கை கல்வெட்டு",
+    "இலங்கைத் தமிழ்க் கல்வெட்டுகள்",
+    "யாழ்ப்பாணம் தொல்லியல்",
+    "கந்தரோடை",
+    "இலங்கை பிராமி",
+    "இலங்கை தொல்லியல்"
+  ],
+  "wiki_queries_en": [
+    "Tamil inscriptions Sri Lanka",
+    "Tamil Brahmi Sri Lanka",
+    "Jaffna archaeology",
+    "Sri Lankan Tamil archaeology",
+    "inscription Trincomalee Tamil",
+    "Kandarodai"
   ]
 }

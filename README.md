@@ -8,7 +8,7 @@ A categorised bibliography of publications on **Sri Lankan Tamil inscriptions, a
 
 | File | What it is |
 |---|---|
-| [`output/SriLanka_Tamil_Inscriptions_Bibliography.xlsx`](output/SriLanka_Tamil_Inscriptions_Bibliography.xlsx) | Excel workbook: Summary, Books, Research Papers, Newspaper Articles, Magazines & Journals, All Records, Sources & Method |
+| [`output/SriLanka_Tamil_Inscriptions_Bibliography.xlsx`](output/SriLanka_Tamil_Inscriptions_Bibliography.xlsx) | Excel workbook: Summary, Books, Research Papers, Newspaper Articles, Magazines & Journals, Web Articles, All Records, Sources & Method |
 | [`output/bibliography.csv`](output/bibliography.csv) | The same records as one CSV (UTF-8, opens in Excel) |
 
 Each record has: ID, year, date, title, author/editor, publisher/source, type, language, themes, keywords, whether it falls within 1996–2026, notes, and a clickable URL.
@@ -17,26 +17,32 @@ Each record has: ID, year, date, title, author/editor, publisher/source, type, l
 
 ```
 data/raw/batchNN.tsv     hand-collected records (researched and checked)
-data/raw/auto_*.tsv      records added automatically by the weekly scraper (marked "review" in Notes)
+data/raw/auto_*.tsv      records added automatically by the daily scraper (marked "review" in Notes)
 data/last_run.json       what the last scraper run found
 scraper/config.json      search keywords and place names (edit this to change what is collected)
 scraper/collect.py       the scraper
 scripts/build_excel.py   rebuilds the Excel and CSV from data/raw/*.tsv
-.github/workflows/       weekly GitHub Actions schedule
+.github/workflows/       daily GitHub Actions schedule
 ```
 
-## Automatic weekly updates
+## Automatic daily updates
 
-Every Monday, GitHub Actions runs `scraper/collect.py`, which searches:
+Every day at 06:53 Sri Lanka time, GitHub Actions runs `scraper/collect.py`, which searches:
 
 - **Google News** (Tamil and English): newspaper reports, filed under *Newspaper Articles*
+- **Bing web search**: websites, blogs and online articles, filed under *Web Articles*
+- **Wikipedia** (Tamil and English): encyclopedia articles, filed under *Web Articles*
 - **Ezhuna (எழுநா)**: online magazine articles, filed under *Magazines & Journals*
 - **Noolaham (நூலகம்)**: digitised books, magazines and newspapers. Noolaham currently blocks automated access (HTTP 403), so this source adds nothing until they allow it. Its entries in the workbook were collected by hand.
 - **OpenAlex** and **Crossref**: scholarly articles and books, filed under *Research Papers* / *Books*
 
 New, relevant items that aren't already in the data are appended, the Excel is rebuilt, and the change is committed.
 
-To run it by hand, open **Actions → Weekly bibliography update → Run workflow**.
+Daily runs look at the last 7 days of news and the current web results.
+
+To run it by hand, open **Actions → Daily bibliography update → Run workflow**.
+
+**Backfill (30 years):** tick *Backfill* when you run it by hand. The scraper then searches news and the web year by year from 1996 to today. This takes about an hour. Run it once, and again after you add new keywords to `scraper/config.json`.
 
 Auto-collected rows are marked `Auto-collected <date> (<source>); review.` in Notes. Check them before citing. When you have checked a row, you can move it into a `batchNN.tsv` file.
 
@@ -46,7 +52,7 @@ Add a row to any `data/raw/*.tsv` file, with tab-separated columns:
 
 `category  type  year  date  title  author  publisher_source  language  keywords  url  notes`
 
-`category` must be one of: `Books`, `Research Papers`, `Newspaper Articles`, `Magazines/Journals`.
+`category` must be one of: `Books`, `Research Papers`, `Newspaper Articles`, `Magazines/Journals`, `Web Articles`.
 
 Then rebuild:
 
