@@ -1,0 +1,36 @@
+{
+  "_comment": "Edit these lists to change what the weekly scraper looks for. Topic keywords decide relevance; place keywords keep results to Sri Lanka for sources that are not Sri Lanka-specific.",
+  "topic_keywords_ta": ["கல்வெட்டு", "கல்வெட்டுகள்", "கல்வெட்டுக்கள்", "தொல்லியல்", "தொல்பொருள்", "நடுகல்", "பாறை ஓவியம்", "பாறை ஓவியங்கள்", "பிராமி", "சாசனம்", "செப்பேடு", "அகழ்வாய்வு", "பெருங்கற்", "நாணயம்"],
+  "topic_keywords_en": ["inscription", "inscriptions", "epigraphy", "epigraphic", "archaeology", "archaeological", "hero stone", "hero-stone", "rock art", "rock painting", "brahmi", "copper plate", "excavation", "megalithic", "potsherd", "ancient coins"],
+  "place_keywords": ["இலங்கை", "ஈழ", "யாழ்", "திருகோணமலை", "மட்டக்களப்பு", "வன்னி", "மன்னார்", "முல்லைத்தீவு", "கிளிநொச்சி", "வவுனியா", "அம்பாறை", "கந்தரோடை", "பூநகரி", "Sri Lanka", "Ceylon", "Lanka", "Jaffna", "Trincomalee", "Batticaloa", "Vanni", "Mannar", "Mullaitivu", "Kilinochchi", "Vavuniya", "Ampara", "Anuradhapura", "Polonnaruwa", "Tissamaharama", "Kantarodai", "Kandarodai", "Poonakari", "Mantai", "Eelam", "Eezham"],
+  "news_queries": [
+    "கல்வெட்டு இலங்கை",
+    "கல்வெட்டு யாழ்ப்பாணம்",
+    "கல்வெட்டு திருகோணமலை",
+    "தொல்லியல் இலங்கை தமிழ்",
+    "நடுகல் இலங்கை",
+    "பாறை ஓவியம் இலங்கை",
+    "பிராமி கல்வெட்டு இலங்கை",
+    "Tamil inscription Sri Lanka",
+    "Tamil Brahmi Sri Lanka",
+    "archaeology Jaffna",
+    "archaeology Vanni Tamil",
+    "hero stone Sri Lanka",
+    "rock art Sri Lanka"
+  ],
+  "paper_queries": [
+    "Tamil inscription Sri Lanka",
+    "Tamil Brahmi Sri Lanka",
+    "Jaffna archaeology",
+    "Kantarodai",
+    "Sri Lanka epigraphy Tamil",
+    "hero stone Sri Lanka",
+    "rock art Sri Lanka",
+    "Tissamaharama Brahmi",
+    "Anaikoddai seal",
+    "Polonnaruwa Tamil inscription"
+  ],
+  "noolaham_queries": ["கல்வெட்டு", "கல்வெட்டுகள்", "தொல்லியல்", "நடுகல்", "பாறை ஓவியம்", "பிராமி", "சாசனம்", "inscription", "archaeology", "epigraphy"],
+  "ezhuna_queries": ["கல்வெட்டு", "தொல்லியல்", "நடுகல்", "பாறை ஓவியம்", "பிராமி", "அகழ்வாய்வு"],
+  "from_year": 1996
+}
