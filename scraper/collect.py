@@ -37,6 +37,8 @@ FIELDS = ["category", "type", "year", "date", "title", "author", "publisher_sour
 UA = {"User-Agent": "SL-Tamil-Inscriptions-Bibliography/1.0 (research bibliography; github.com/Udhayan26)"}
 TODAY = date.today().isoformat()
 TAMIL_RE = re.compile(r"[஀-௿]")
+STATS = {}   # raw counts per source, written to data/last_run.json
+ERRORS = []  # http problems, written to data/last_run.json for diagnosis
 
 
 # ----------------------------------------------------------------- helpers
