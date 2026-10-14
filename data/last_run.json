@@ -1,14 +1,6 @@
 {
   "date": "2026-10-14",
   "sources": {
-    "news": {
-      "found": 148,
-      "added": 126
-    },
-    "ezhuna": {
-      "found": 251,
-      "added": 29
-    },
     "noolaham": {
       "found": 0,
       "added": 0
@@ -16,10 +8,22 @@
     "openalex": {
       "found": 0,
       "added": 0
-    },
-    "crossref": {
-      "found": 12,
-      "added": 10
     }
-  }
+  },
+  "stats": {},
+  "errors": [
+    "403 https://noolaham.org/wiki/api.php",
+    "403 https://noolaham.org/w/api.php",
+    "403 https://www.noolaham.org/wiki/api.php",
+    "400 https://api.openalex.org/works?per-page=100&search=Tamil%20inscription%20Sri%20Lanka&filter=from_publication_year:1996&mailto=bibliography@example.org",
+    "400 https://api.openalex.org/works?per-page=100&search=Tamil%20Brahmi%20Sri%20Lanka&filter=from_publication_year:1996&mailto=bibliography@example.org",
+    "400 https://api.openalex.org/works?per-page=100&search=Jaffna%20archaeology&filter=from_publication_year:1996&mailto=bibliography@example.org",
+    "400 https://api.openalex.org/works?per-page=100&search=Kantarodai&filter=from_publication_year:1996&mailto=bibliography@example.org",
+    "400 https://api.openalex.org/works?per-page=100&search=Sri%20Lanka%20epigraphy%20Tamil&filter=from_publication_year:1996&mailto=bibliography@example.org",
+    "400 https://api.openalex.org/works?per-page=100&search=hero%20stone%20Sri%20Lanka&filter=from_publication_year:1996&mailto=bibliography@example.org",
+    "400 https://api.openalex.org/works?per-page=100&search=rock%20art%20Sri%20Lanka&filter=from_publication_year:1996&mailto=bibliography@example.org",
+    "400 https://api.openalex.org/works?per-page=100&search=Tissamaharama%20Brahmi&filter=from_publication_year:1996&mailto=bibliography@example.org",
+    "400 https://api.openalex.org/works?per-page=100&search=Anaikoddai%20seal&filter=from_publication_year:1996&mailto=bibliography@example.org",
+    "400 https://api.openalex.org/works?per-page=100&search=Polonnaruwa%20Tamil%20inscription&filter=from_publication_year:1996&mailto=bibliography@example.org"
+  ]
 }
