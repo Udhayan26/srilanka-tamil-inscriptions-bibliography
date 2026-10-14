@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-14",
+  "sources": {
+    "news": {
+      "found": 148,
+      "added": 126
+    },
+    "ezhuna": {
+      "found": 251,
+      "added": 29
+    },
+    "noolaham": {
+      "found": 0,
+      "added": 0
+    },
+    "openalex": {
+      "found": 0,
+      "added": 0
+    },
+    "crossref": {
+      "found": 12,
+      "added": 10
+    }
+  }
+}
