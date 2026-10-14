@@ -50,9 +50,11 @@ def get(url, **kw):
                 time.sleep(5 * (attempt + 1))
                 continue
             print(f"  ! {r.status_code} {url[:120]}", file=sys.stderr)
+            ERRORS.append(f"{r.status_code} {url[:160]}")
             return None
         except requests.RequestException as e:
             print(f"  ! {e.__class__.__name__} {url[:120]}", file=sys.stderr)
+            ERRORS.append(f"{e.__class__.__name__} {url[:160]}")
             time.sleep(3)
     return None
 
@@ -146,7 +148,10 @@ def google_news():
             if src and title.endswith(" - " + src):
                 title = title[: -len(src) - 3]
             desc = clean(it.findtext("description"))
-            if not relevant(title + " " + desc, need_place=True) and not relevant(title, need_place=False):
+            sl_outlet = has_any(src, CFG.get("sri_lankan_outlets", []))
+            if not (relevant(title + " " + desc, need_place=True) or (sl_outlet and relevant(title, need_place=False))):
+                continue
+            if has_any(title, CFG.get("exclude_keywords", [])):
                 continue
             pub = it.findtext("pubDate")
             d = ""
@@ -179,7 +184,8 @@ def ezhuna():
             for p in posts:
                 title = clean(p.get("title", {}).get("rendered"))
                 excerpt = clean(p.get("excerpt", {}).get("rendered"))
-                if not relevant(title + " " + excerpt, need_place=False):
+                # topic word in the title, or at least two distinct topic words in the excerpt
+                if not (topic_hits(title) or len(set(topic_hits(excerpt))) >= 2):
                     continue
                 author = ""
                 emb = p.get("_embedded", {}).get("author") or []
@@ -196,7 +202,22 @@ def ezhuna():
     return out
 
 
-NOOLAHAM_API = "https://noolaham.org/wiki/api.php"
+NOOLAHAM_APIS = ["https://noolaham.org/wiki/api.php", "https://noolaham.org/w/api.php",
+                 "https://www.noolaham.org/wiki/api.php"]
+NOOLAHAM_API = NOOLAHAM_APIS[0]
+
+
+def noolaham_api():
+    """Return the first Noolaham API endpoint that answers with JSON."""
+    for api in NOOLAHAM_APIS:
+        r = get(api, params={"action": "query", "meta": "siteinfo", "format": "json"})
+        if r is not None:
+            try:
+                r.json()
+                return api
+            except ValueError:
+                ERRORS.append(f"non-JSON reply from {api}: {r.text[:80]!r}")
+    return None
 NOOLAHAM_TYPES = {"நூல்": ("Books", "Book"), "இதழ்": ("Magazines/Journals", "Magazine/Journal issue"),
                   "பத்திரிகை": ("Newspaper Articles", "Newspaper issue"),
                   "சிறப்புமலர்": ("Magazines/Journals", "Special issue / souvenir"),
@@ -221,9 +242,12 @@ def parse_template(wikitext):
 def noolaham():
     out = []
     titles = set()
+    api = noolaham_api()
+    if not api:
+        return out
     for q in CFG["noolaham_queries"]:
         for offset in range(0, 1000, 500):
-            r = get(NOOLAHAM_API, params={"action": "query", "list": "search", "srsearch": q,
+            r = get(api, params={"action": "query", "list": "search", "srsearch": q,
                                           "srlimit": 500, "sroffset": offset, "srnamespace": 0,
                                           "format": "json"})
             if not r:
@@ -241,7 +265,7 @@ def noolaham():
     titles = sorted(titles)
     for i in range(0, len(titles), 40):
         batch = titles[i:i + 40]
-        r = get(NOOLAHAM_API, params={"action": "query", "prop": "revisions", "rvprop": "content",
+        r = get(api, params={"action": "query", "prop": "revisions", "rvprop": "content",
                                       "rvslots": "main", "titles": "|".join(batch), "format": "json"})
         if not r:
             continue
@@ -279,7 +303,10 @@ def openalex():
         r = get(url)
         if not r:
             continue
-        for w in r.json().get("results", []):
+        results = r.json().get("results", [])
+        STATS.setdefault("openalex_raw", 0)
+        STATS["openalex_raw"] += len(results)
+        for w in results:
             title = clean(w.get("title") or "")
             abstract = " ".join((w.get("abstract_inverted_index") or {}).keys())
             if not title or not relevant(title + " " + abstract, need_place=True):
@@ -348,7 +375,8 @@ def main():
         report[name] = {"found": len(rows), "added": added}
         print(f"  found {len(rows)}, added {added}")
     with open(os.path.join(ROOT, "data", "last_run.json"), "w", encoding="utf-8") as f:
-        json.dump({"date": TODAY, "sources": report}, f, ensure_ascii=False, indent=2)
+        json.dump({"date": TODAY, "sources": report, "stats": STATS, "errors": ERRORS[:50]}, f,
+                  ensure_ascii=False, indent=2)
     print(json.dumps(report, ensure_ascii=False))
 
 
