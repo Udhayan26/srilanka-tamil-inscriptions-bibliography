@@ -400,6 +400,9 @@ def bing_web():
                 continue
             items = list(root.iter("item"))
             STATS["bing_raw"] = STATS.get("bing_raw", 0) + len(items)
+            sample = STATS.setdefault("bing_sample", [])
+            if len(sample) < 12 and items:
+                sample.append(f"{q + w} -> {clean(items[0].findtext('title'))[:70]} | {(items[0].findtext('link') or '')[:70]}")
             for it in items:
                 title = clean(it.findtext("title"))
                 desc = clean(it.findtext("description"))
@@ -439,10 +442,16 @@ def ddg_web():
             except requests.RequestException as e:
                 ERRORS.append(f"ddg {e.__class__.__name__}")
                 continue
-            if r.status_code != 200:
-                ERRORS.append(f"ddg {r.status_code} {q + w}")
-                time.sleep(10)
-                continue
+            if r.status_code != 200:  # 202 = DuckDuckGo throttling; wait and try once more
+                time.sleep(30)
+                try:
+                    r = requests.post("https://html.duckduckgo.com/html/", data={"q": q + w, "kl": "wt-wt"},
+                                      headers=BROWSER_UA, timeout=30)
+                except requests.RequestException:
+                    pass
+                if r.status_code != 200:
+                    ERRORS.append(f"ddg {r.status_code} {q + w}")
+                    continue
             hits = pat.findall(r.text)
             STATS["ddg_raw"] = STATS.get("ddg_raw", 0) + len(hits)
             for href, t, snip in hits:
@@ -459,7 +468,7 @@ def ddg_web():
                 out.append({"category": "Web Articles", "type": "Web page", "year": m.group(1) if m else "",
                             "date": "", "title": title, "author": "", "publisher_source": host,
                             "language": lang_of(title), "url": link, "notes": f"Web search: {q + w}."})
-            time.sleep(3)
+            time.sleep(10)
     return out
 
 
