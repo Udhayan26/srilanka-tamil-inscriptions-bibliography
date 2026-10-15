@@ -1,32 +1,62 @@
 {
-  "date": "2026-10-14",
-  "backfill": true,
+  "date": "2026-10-15",
+  "backfill": false,
   "sources": {
     "news": {
-      "found": 52,
-      "added": 21
+      "found": 0,
+      "added": 0
     },
     "web": {
+      "found": 1,
+      "added": 1
+    },
+    "ddg": {
+      "found": 79,
+      "added": 55
+    },
+    "wikipedia": {
+      "found": 46,
+      "added": 5
+    },
+    "ezhuna": {
+      "found": 186,
+      "added": 0
+    },
+    "noolaham": {
       "found": 0,
+      "added": 0
+    },
+    "openalex": {
+      "found": 82,
+      "added": 0
+    },
+    "crossref": {
+      "found": 8,
       "added": 0
     }
   },
   "stats": {
-    "bing_raw": 4231,
+    "bing_raw": 137,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு 1996 -> Amazon Research Panel phishing scam : r/amazon - Reddit | https://www.reddit.com/r/amazon/comments/48usmz/amazon_research_panel_",
-      "இலங்கை தமிழ் கல்வெட்டு 1997 -> Derivative Calculator • With Steps! | https://www.derivative-calculator.net/",
-      "இலங்கை தமிழ் கல்வெட்டு 1998 -> How to Call Someone Who Blocked Your Number: 9 Ways - Guru99 | https://www.guru99.com/how-to-call-someone-who-blocked-you.html",
-      "இலங்கை தமிழ் கல்வெட்டு 1999 -> US - News: Increasing violence as a health and safety threat - 2022/ . | https://flutrackers.com/threads/us-news-increasing-violence-as-a-healt",
-      "இலங்கை தமிழ் கல்வெட்டு 2000 -> Microsoft Store - Download apps, games & more for your Windows PC | https://apps.microsoft.com/",
-      "இலங்கை தமிழ் கல்வெட்டு 2001 -> National Gallery of Art | https://www.nga.gov/",
-      "இலங்கை தமிழ் கல்வெட்டு 2002 -> Speedtest by Ookla - The Global Broadband Speed Test | https://www.speedtest.net/",
-      "இலங்கை தமிழ் கல்வெட்டு 2003 -> Download BandLab for your device | https://www.bandlab.com/download",
-      "இலங்கை தமிழ் கல்வெட்டு 2004 -> College football rankings: Associated Press Top 25 - NCAA.com | https://www.ncaa.com/rankings/football/fbs/associated-press",
-      "இலங்கை தமிழ் கல்வெட்டு 2005 -> Missing options for light fixtures: vertical face/plan/work plane. | https://forums.autodesk.com/t5/revit-mep-forum/missing-options-for-lig",
-      "இலங்கை தமிழ் கல்வெட்டு 2006 -> New York (NY) Lottery Results | Lottery Post | https://www.lotterypost.com/results/ny",
-      "இலங்கை தமிழ் கல்வெட்டு 2007 -> AD75 Fares for Travel Agents on Airlines - FlyerTalk Forums | https://www.flyertalk.com/forum/travelbuzz/1528988-ad75-fares-travel-a"
-    ]
+      "இலங்கை தமிழ் கல்வெட்டு -> Forum list | Ford Tremor Forum | Ford Super Duty | https://www.fordtremor.com/forums/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Antonija P Simpson, Financial Advisor | Edward Jones | https://www.edwardjones.com/us-en/financial-advisor/antonija-simpson",
+      "இலங்கை நடுகல் -> What is the Phone number to Roses Dept. Store's Corporate office? | https://www.answers.com/finance/What_is_the_Phone_number_to_Roses_Dept",
+      "இலங்கை பாறை ஓவியம் -> Windows Insider Program | Microsoft Community Hub | https://techcommunity.microsoft.com/category/windows/discussions/windo",
+      "ஈழம் தொல்லியல் பிராமி -> nhentai: hentai doujinshi and manga | https://nhentai.net/",
+      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
+      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
+      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.wikipedia.org/wiki/Jaffna",
+      "Vanni archaeology Tamil -> Change the language of your uploaded video - YouTube Help | https://support.google.com/youtube/answer/6304325",
+      "Trincomalee Tamil inscription -> Watchmen (2009) - Company credits - IMDb | https://m.imdb.com/title/tt0409459/companycredits/",
+      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
+      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
+    ],
+    "ddg_raw": 140,
+    "openalex_raw": 719
   },
-  "errors": []
+  "errors": [
+    "403 https://noolaham.org/wiki/api.php",
+    "403 https://noolaham.org/w/api.php",
+    "403 https://www.noolaham.org/wiki/api.php"
+  ]
 }
