@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,19 +7,19 @@
       "added": 0
     },
     "web": {
-      "found": 1,
-      "added": 1
+      "found": 0,
+      "added": 0
     },
     "ddg": {
       "found": 79,
-      "added": 55
+      "added": 3
     },
     "wikipedia": {
-      "found": 46,
-      "added": 5
+      "found": 48,
+      "added": 2
     },
     "ezhuna": {
-      "found": 186,
+      "found": 0,
       "added": 0
     },
     "noolaham": {
@@ -36,18 +36,18 @@
     }
   },
   "stats": {
-    "bing_raw": 137,
+    "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Forum list | Ford Tremor Forum | Ford Super Duty | https://www.fordtremor.com/forums/",
-      "யாழ்ப்பாணம் தொல்லியல் -> Antonija P Simpson, Financial Advisor | Edward Jones | https://www.edwardjones.com/us-en/financial-advisor/antonija-simpson",
-      "இலங்கை நடுகல் -> What is the Phone number to Roses Dept. Store's Corporate office? | https://www.answers.com/finance/What_is_the_Phone_number_to_Roses_Dept",
-      "இலங்கை பாறை ஓவியம் -> Windows Insider Program | Microsoft Community Hub | https://techcommunity.microsoft.com/category/windows/discussions/windo",
-      "ஈழம் தொல்லியல் பிராமி -> nhentai: hentai doujinshi and manga | https://nhentai.net/",
+      "இலங்கை தமிழ் கல்வெட்டு -> Grandpa Uncut Cock Porn Videos: Gay XXX 2026 | xHamster | https://xhamster.com/gay/search/grandpa+uncut+cock",
+      "யாழ்ப்பாணம் தொல்லியல் -> Salma Hayek - Wikipedia | https://en.wikipedia.org/wiki/Salma_Hayek",
+      "இலங்கை நடுகல் -> Cotton Shirts in Carlo Riva fabric – Talarico Cravatte | https://www.talaricocravatte.it/en-rw/collections/camicie-cotone-tessu",
+      "இலங்கை பாறை ஓவியம் -> Solved: Change currency - The Spotify Community | https://community.spotify.com/t5/Subscriptions/Change-currency/td-p/45",
+      "ஈழம் தொல்லியல் பிராமி -> Azure VMware Solution now available in the new AV48 node size in Japan | https://techcommunity.microsoft.com/blog/azuremigrationblog/azure-vmwa",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Change the language of your uploaded video - YouTube Help | https://support.google.com/youtube/answer/6304325",
-      "Trincomalee Tamil inscription -> Watchmen (2009) - Company credits - IMDb | https://m.imdb.com/title/tt0409459/companycredits/",
+      "Jaffna archaeology -> 210W Solar Kit 24V | LiftMaster | https://www.liftmaster.com/210w-solar-kit-24v/p/210W",
+      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
+      "Trincomalee Tamil inscription -> Top Web Development Companies in Connecticut - Clutch | https://clutch.co/web-developers/connecticut",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
@@ -55,6 +55,24 @@
     "openalex_raw": 719
   },
   "errors": [
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
     "403 https://noolaham.org/wiki/api.php",
     "403 https://noolaham.org/w/api.php",
     "403 https://www.noolaham.org/wiki/api.php"
