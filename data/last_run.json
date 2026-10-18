@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,15 +7,15 @@
       "added": 0
     },
     "web": {
-      "found": 28,
+      "found": 0,
       "added": 0
     },
     "ddg": {
-      "found": 79,
-      "added": 3
+      "found": 73,
+      "added": 2
     },
     "wikipedia": {
-      "found": 47,
+      "found": 46,
       "added": 0
     },
     "ezhuna": {
@@ -28,7 +28,7 @@
     },
     "openalex": {
       "found": 82,
-      "added": 0
+      "added": 1
     },
     "crossref": {
       "found": 8,
@@ -36,19 +36,19 @@
     }
   },
   "stats": {
-    "bing_raw": 140,
+    "bing_raw": 135,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Amazon - Reddit | https://www.reddit.com/r/amazon/about/",
-      "யாழ்ப்பாணம் தொல்லியல் -> யாழ்ப்பாணம் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%AF%E0%AE%BE%E0%AE%B4%E0%AF%8D%E0%",
-      "இலங்கை நடுகல் -> The Way We Worship – Calvary Chapel | https://calvarychapel.com/posts/the-way-we-worship/",
-      "இலங்கை பாறை ஓவியம் -> பாறை ஓவியம் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88_%E0",
-      "ஈழம் தொல்லியல் பிராமி -> YouTube TV Help | https://support.google.com/youtubetv/?hl=en",
-      "Sri Lanka Tamil inscription -> Tamil inscriptions in Sri Lanka - Wikipedia | https://en.wikipedia.org/wiki/Tamil_inscriptions_in_Sri_Lanka",
+      "இலங்கை தமிழ் கல்வெட்டு -> Windows Insider Program | Microsoft Community Hub | https://techcommunity.microsoft.com/category/windows/discussions/windo",
+      "யாழ்ப்பாணம் தொல்லியல் -> Windows Insider Program | Microsoft Community Hub | https://techcommunity.microsoft.com/category/windows/discussions/windo",
+      "இலங்கை நடுகல் -> NVIDIA SHIELD - The Best Streaming Media Device | https://www.nvidia.com/en-us/shield/",
+      "இலங்கை பாறை ஓவியம் -> Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub | https://www.pornhub.com/",
+      "ஈழம் தொல்லியல் பிராமி -> Snifflist — the niche fragrance tracker. Never miss a scent. | https://snifflist.com/",
+      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Windows help and learning | Microsoft Support | https://support.microsoft.com/en-us/windows/",
-      "Trincomalee Tamil inscription -> A Tamil Inscription - sethuramanepigraphist.com | https://sethuramanepigraphist.com/wp-content/uploads/2022/07/A-Tamil-I",
-      "Sri Lanka hero stone -> Sinhalese Hero Stone Analysis | https://www.scribd.com/document/459454071/srilanka-herostone-pdf",
+      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
+      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
+      "Trincomalee Tamil inscription -> News24 हिंदी: डेली ब्रेकिंग न्यूज़ और आज की ताज़ा खबरें | राजनीति ... | https://hindi.news24online.com/",
+      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
     "ddg_raw": 140,
