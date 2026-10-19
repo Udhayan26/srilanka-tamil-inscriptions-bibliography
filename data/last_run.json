@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "backfill": false,
   "sources": {
     "news": {
@@ -11,11 +11,11 @@
       "added": 0
     },
     "ddg": {
-      "found": 73,
-      "added": 2
+      "found": 72,
+      "added": 5
     },
     "wikipedia": {
-      "found": 46,
+      "found": 47,
       "added": 0
     },
     "ezhuna": {
@@ -27,7 +27,7 @@
       "added": 0
     },
     "openalex": {
-      "found": 82,
+      "found": 85,
       "added": 1
     },
     "crossref": {
@@ -36,18 +36,18 @@
     }
   },
   "stats": {
-    "bing_raw": 135,
+    "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Windows Insider Program | Microsoft Community Hub | https://techcommunity.microsoft.com/category/windows/discussions/windo",
-      "யாழ்ப்பாணம் தொல்லியல் -> Windows Insider Program | Microsoft Community Hub | https://techcommunity.microsoft.com/category/windows/discussions/windo",
-      "இலங்கை நடுகல் -> NVIDIA SHIELD - The Best Streaming Media Device | https://www.nvidia.com/en-us/shield/",
-      "இலங்கை பாறை ஓவியம் -> Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub | https://www.pornhub.com/",
-      "ஈழம் தொல்லியல் பிராமி -> Snifflist — the niche fragrance tracker. Never miss a scent. | https://snifflist.com/",
+      "இலங்கை தமிழ் கல்வெட்டு -> QR Code Generator | Create Your Free QR Codes | https://vi.qr-code-generator.com/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
+      "இலங்கை நடுகல் -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
+      "இலங்கை பாறை ஓவியம் -> Windows Insider Program | Microsoft Community Hub | https://techcommunity.microsoft.com/category/windows/discussions/windo",
+      "ஈழம் தொல்லியல் பிராமி -> Space Needle | https://www.spaceneedle.com/",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
-      "Trincomalee Tamil inscription -> News24 हिंदी: डेली ब्रेकिंग न्यूज़ और आज की ताज़ा खबरें | राजनीति ... | https://hindi.news24online.com/",
+      "Vanni archaeology Tamil -> James Ransone - Wikipedia | https://en.wikipedia.org/wiki/James_Ransone",
+      "Trincomalee Tamil inscription -> Windows Insider Program | Microsoft Community Hub | https://techcommunity.microsoft.com/category/windows/discussions/windo",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
