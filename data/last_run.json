@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "backfill": false,
   "sources": {
     "news": {
@@ -12,7 +12,7 @@
     },
     "ddg": {
       "found": 72,
-      "added": 5
+      "added": 3
     },
     "wikipedia": {
       "found": 47,
@@ -27,8 +27,8 @@
       "added": 0
     },
     "openalex": {
-      "found": 85,
-      "added": 1
+      "found": 86,
+      "added": 0
     },
     "crossref": {
       "found": 8,
@@ -38,16 +38,16 @@
   "stats": {
     "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> QR Code Generator | Create Your Free QR Codes | https://vi.qr-code-generator.com/",
-      "யாழ்ப்பாணம் தொல்லியல் -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
-      "இலங்கை நடுகல் -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
-      "இலங்கை பாறை ஓவியம் -> Windows Insider Program | Microsoft Community Hub | https://techcommunity.microsoft.com/category/windows/discussions/windo",
-      "ஈழம் தொல்லியல் பிராமி -> Space Needle | https://www.spaceneedle.com/",
+      "இலங்கை தமிழ் கல்வெட்டு -> Yahoo | https://www.yahoo.com/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Notifications and Do Not Disturb in Windows | Microsoft Support | https://support.microsoft.com/en-us/windows/experience/notifications-a",
+      "இலங்கை நடுகல் -> How to rename a Windows task created with Task Scheduler | https://www.digitalcitizen.life/how-rename-windows-task-created-task-s",
+      "இலங்கை பாறை ஓவியம் -> Milf Debbie Tube Search (654 videos) - NudeVista | https://www.nudevista.net/?q=milf+debbie&s=t",
+      "ஈழம் தொல்லியல் பிராமி -> Hotel California - Wikipedia | https://en.wikipedia.org/wiki/Hotel_California",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> James Ransone - Wikipedia | https://en.wikipedia.org/wiki/James_Ransone",
-      "Trincomalee Tamil inscription -> Windows Insider Program | Microsoft Community Hub | https://techcommunity.microsoft.com/category/windows/discussions/windo",
+      "Jaffna archaeology -> Used Cars For Sale in North Reading, MA | https://www.northreadingsubaru.com/used-inventory/index.htm",
+      "Vanni archaeology Tamil -> Lakers vs Trail Blazers scores & predictions | Sofascore | https://www.sofascore.com/basketball/match/los-angeles-lakers-portland",
+      "Trincomalee Tamil inscription -> MICHELIN PILOT SPORT A/S 3+ - Vehicle Tires | Michelin USA | https://www.michelinman.com/auto/tires/michelin-pilot-sport-a-s-3-plus",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
