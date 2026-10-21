@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "backfill": false,
   "sources": {
     "news": {
@@ -11,12 +11,12 @@
       "added": 0
     },
     "ddg": {
-      "found": 72,
-      "added": 3
+      "found": 75,
+      "added": 6
     },
     "wikipedia": {
-      "found": 47,
-      "added": 0
+      "found": 49,
+      "added": 2
     },
     "ezhuna": {
       "found": 186,
@@ -36,18 +36,18 @@
     }
   },
   "stats": {
-    "bing_raw": 140,
+    "bing_raw": 137,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Yahoo | https://www.yahoo.com/",
-      "யாழ்ப்பாணம் தொல்லியல் -> Notifications and Do Not Disturb in Windows | Microsoft Support | https://support.microsoft.com/en-us/windows/experience/notifications-a",
-      "இலங்கை நடுகல் -> How to rename a Windows task created with Task Scheduler | https://www.digitalcitizen.life/how-rename-windows-task-created-task-s",
-      "இலங்கை பாறை ஓவியம் -> Milf Debbie Tube Search (654 videos) - NudeVista | https://www.nudevista.net/?q=milf+debbie&s=t",
-      "ஈழம் தொல்லியல் பிராமி -> Hotel California - Wikipedia | https://en.wikipedia.org/wiki/Hotel_California",
+      "இலங்கை தமிழ் கல்வெட்டு -> Simply Filters, AC Furnace HVAC Air Filter, 12x20x1, MERV 8 ... | https://www.walmart.com/ip/Simply-Filters-12x20x1-MERV-8-MPR-600-AC-Fu",
+      "யாழ்ப்பாணம் தொல்லியல் -> TEAS Exam Information | Register For The TEAS | ATI | https://www.atitesting.com/teas/register",
+      "இலங்கை நடுகல் -> Is there a way to check if Facebook access token is still valid? | https://stackoverflow.com/questions/3845151/is-there-a-way-to-check-if",
+      "இலங்கை பாறை ஓவியம் -> Quantum chromodynamics - Wikipedia | https://en.wikipedia.org/wiki/Quantum_chromodynamics",
+      "ஈழம் தொல்லியல் பிராமி -> Download | QLC+ by Massimo Callegari | https://www.qlcplus.org/download",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Used Cars For Sale in North Reading, MA | https://www.northreadingsubaru.com/used-inventory/index.htm",
-      "Vanni archaeology Tamil -> Lakers vs Trail Blazers scores & predictions | Sofascore | https://www.sofascore.com/basketball/match/los-angeles-lakers-portland",
-      "Trincomalee Tamil inscription -> MICHELIN PILOT SPORT A/S 3+ - Vehicle Tires | Michelin USA | https://www.michelinman.com/auto/tires/michelin-pilot-sport-a-s-3-plus",
+      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.wikipedia.org/wiki/Jaffna",
+      "Vanni archaeology Tamil -> More Models, One Copilot | Microsoft Community Hub | https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/more-m",
+      "Trincomalee Tamil inscription -> Trincomalee - Wikipedia | https://en.wikipedia.org/wiki/Trincomalee",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
