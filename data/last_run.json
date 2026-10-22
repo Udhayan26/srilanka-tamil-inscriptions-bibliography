@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,19 +7,19 @@
       "added": 0
     },
     "web": {
-      "found": 0,
+      "found": 1,
       "added": 0
     },
     "ddg": {
-      "found": 75,
-      "added": 6
+      "found": 74,
+      "added": 3
     },
     "wikipedia": {
-      "found": 49,
-      "added": 2
+      "found": 48,
+      "added": 0
     },
     "ezhuna": {
-      "found": 186,
+      "found": 0,
       "added": 0
     },
     "noolaham": {
@@ -38,16 +38,16 @@
   "stats": {
     "bing_raw": 137,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Simply Filters, AC Furnace HVAC Air Filter, 12x20x1, MERV 8 ... | https://www.walmart.com/ip/Simply-Filters-12x20x1-MERV-8-MPR-600-AC-Fu",
-      "யாழ்ப்பாணம் தொல்லியல் -> TEAS Exam Information | Register For The TEAS | ATI | https://www.atitesting.com/teas/register",
-      "இலங்கை நடுகல் -> Is there a way to check if Facebook access token is still valid? | https://stackoverflow.com/questions/3845151/is-there-a-way-to-check-if",
-      "இலங்கை பாறை ஓவியம் -> Quantum chromodynamics - Wikipedia | https://en.wikipedia.org/wiki/Quantum_chromodynamics",
-      "ஈழம் தொல்லியல் பிராமி -> Download | QLC+ by Massimo Callegari | https://www.qlcplus.org/download",
+      "இலங்கை தமிழ் கல்வெட்டு -> Polymarket Insider Trading Rules 2026: Senate Ban, DOJ ... | https://www.polymarket101.com/en/docs/faq/polymarket-insider-trading-r",
+      "யாழ்ப்பாணம் தொல்லியல் -> Create and edit documents for free | Microsoft Word for the Web | https://word.cloud.microsoft/en-us/",
+      "இலங்கை நடுகல் -> In Depth | Moons – NASA Solar System Exploration | https://solarsystem.nasa.gov/moons/in-depth.amp",
+      "இலங்கை பாறை ஓவியம் -> THE BEST 10 Nail Salons in SEATTLE, WA - Updated 2026 - Yelp | https://www.yelp.com/search?cflt=othersalons&find_loc=Seattle%2C+WA",
+      "ஈழம் தொல்லியல் பிராமி -> DIETA ROZDZIELNA----działamy??? :))) - wielkiezarcie.com | https://wielkiezarcie.com/forum/34076565",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> More Models, One Copilot | Microsoft Community Hub | https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/more-m",
-      "Trincomalee Tamil inscription -> Trincomalee - Wikipedia | https://en.wikipedia.org/wiki/Trincomalee",
+      "Vanni archaeology Tamil -> Enterprise Rent-A-Car - Official Site | https://www.enterprise.com/en/home.html",
+      "Trincomalee Tamil inscription -> Wymagania – WordPress.org Polska | https://pl.wordpress.org/about/requirements/",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
@@ -55,6 +55,24 @@
     "openalex_raw": 719
   },
   "errors": [
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
     "403 https://noolaham.org/wiki/api.php",
     "403 https://noolaham.org/w/api.php",
     "403 https://www.noolaham.org/wiki/api.php"
