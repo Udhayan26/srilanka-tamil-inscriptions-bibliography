@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,15 +7,15 @@
       "added": 0
     },
     "web": {
-      "found": 1,
+      "found": 8,
       "added": 0
     },
     "ddg": {
-      "found": 74,
+      "found": 76,
       "added": 3
     },
     "wikipedia": {
-      "found": 48,
+      "found": 47,
       "added": 0
     },
     "ezhuna": {
@@ -36,19 +36,19 @@
     }
   },
   "stats": {
-    "bing_raw": 137,
+    "bing_raw": 131,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Polymarket Insider Trading Rules 2026: Senate Ban, DOJ ... | https://www.polymarket101.com/en/docs/faq/polymarket-insider-trading-r",
-      "யாழ்ப்பாணம் தொல்லியல் -> Create and edit documents for free | Microsoft Word for the Web | https://word.cloud.microsoft/en-us/",
-      "இலங்கை நடுகல் -> In Depth | Moons – NASA Solar System Exploration | https://solarsystem.nasa.gov/moons/in-depth.amp",
-      "இலங்கை பாறை ஓவியம் -> THE BEST 10 Nail Salons in SEATTLE, WA - Updated 2026 - Yelp | https://www.yelp.com/search?cflt=othersalons&find_loc=Seattle%2C+WA",
-      "ஈழம் தொல்லியல் பிராமி -> DIETA ROZDZIELNA----działamy??? :))) - wielkiezarcie.com | https://wielkiezarcie.com/forum/34076565",
+      "இலங்கை தமிழ் கல்வெட்டு -> Walmart Stores Near Me - Locations, Hours & Services | https://www.walmart.com/store-finder?location=page",
+      "யாழ்ப்பாணம் தொல்லியல் -> What are some of the most disturbing Wikipedia pages to read? | https://www.reddit.com/r/AskReddit/comments/98s98x/what_are_some_of_th",
+      "இலங்கை நடுகல் -> நடுகல் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%",
+      "இலங்கை பாறை ஓவியம் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "ஈழம் தொல்லியல் பிராமி -> ஈழத்தின் தொன்ம மொழியும் தொல்லியல் ஆதாரங்களும் - Tamil Heritage | https://telibrary.com/ancient-language-of-eelam-and-archaeological-evi",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Enterprise Rent-A-Car - Official Site | https://www.enterprise.com/en/home.html",
-      "Trincomalee Tamil inscription -> Wymagania – WordPress.org Polska | https://pl.wordpress.org/about/requirements/",
-      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
+      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
+      "Trincomalee Tamil inscription -> ESPN - Serving Sports Fans. Anytime. Anywhere. | https://www.espn.com/",
+      "Sri Lanka hero stone -> Hero Stones in Sri Lanka’s Past | Thuppahi's Blog | https://thuppahis.com/2025/02/16/hero-stones-in-sri-lankas-past/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
     "ddg_raw": 140,
