@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "backfill": false,
   "sources": {
     "news": {
       "found": 1,
-      "added": 1
+      "added": 0
     },
     "web": {
       "found": 0,
       "added": 0
     },
     "ddg": {
-      "found": 79,
-      "added": 0
+      "found": 76,
+      "added": 4
     },
     "wikipedia": {
-      "found": 47,
+      "found": 48,
       "added": 0
     },
     "ezhuna": {
@@ -36,23 +36,23 @@
     }
   },
   "stats": {
-    "bing_raw": 140,
+    "bing_raw": 134,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
-      "யாழ்ப்பாணம் தொல்லியல் -> Duke Blue Devils Scores, Stats and Highlights - ESPN | https://www.espn.com/college-football/team/_/id/150/duke-blue-devils",
-      "இலங்கை நடுகல் -> iPad mini - Apple | https://www.apple.com/ipad-mini/",
-      "இலங்கை பாறை ஓவியம் -> Excel now supports multiple values in a single cell | Microsoft ... | https://techcommunity.microsoft.com/blog/excelblog/excel-now-supports-",
-      "ஈழம் தொல்லியல் பிராமி -> Leo Horoscopes: Daily & Today | Horoscope.com | https://www.horoscope.com/us/horoscopes/general/horoscope-general-dail",
-      "Sri Lanka Tamil inscription -> Home | SRI Services | https://sriservices.com/",
-      "Sri Lanka Tamil Brahmi -> Home | SRI Services | https://sriservices.com/",
+      "இலங்கை தமிழ் கல்வெட்டு -> GitHub - excalidraw/excalidraw: Virtual whiteboard for sketching hand  | https://github.com/excalidraw/excalidraw",
+      "யாழ்ப்பாணம் தொல்லியல் -> Fish Oil 1000 mg (Label) | Dietary Supplement Label Database ... | https://dsld.od.nih.gov/label/17155",
+      "இலங்கை நடுகல் -> Definition Worksheet for Kids (Write, Use in a Sentence, Draw) | https://www.mamaslearningcorner.com/fun-way-to-write-definitions-for-k",
+      "இலங்கை பாறை ஓவியம் -> Experience Science-backed Assisted Stretching | StretchLab | https://www.stretchlab.com/",
+      "ஈழம் தொல்லியல் பிராமி -> Bending Brigade | Avatar Wiki | Fandom | https://avatar.fandom.com/wiki/Bending_Brigade",
+      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
+      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Google Maps | https://maps.google.com/",
-      "Trincomalee Tamil inscription -> How can I repair a broken pivot hinge for a vanity mirror? | https://diy.stackexchange.com/questions/51706/how-can-i-repair-a-broke",
-      "Sri Lanka hero stone -> Home | SRI Services | https://sriservices.com/",
-      "Sri Lanka rock art cave painting -> Home | SRI Services | https://sriservices.com/"
+      "Vanni archaeology Tamil -> Pinterest | https://www.pinterest.com/",
+      "Trincomalee Tamil inscription -> Employees - Franciscan Health | https://www.franciscanhealth.org/about/employees",
+      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
+      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
     "ddg_raw": 140,
-    "openalex_raw": 720
+    "openalex_raw": 719
   },
   "errors": [
     "403 https://noolaham.org/wiki/api.php",
