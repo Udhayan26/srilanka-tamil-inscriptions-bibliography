@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,19 +7,19 @@
       "added": 0
     },
     "web": {
-      "found": 0,
-      "added": 0
+      "found": 1,
+      "added": 1
     },
     "ddg": {
-      "found": 76,
+      "found": 77,
       "added": 4
     },
     "wikipedia": {
-      "found": 48,
+      "found": 47,
       "added": 0
     },
     "ezhuna": {
-      "found": 186,
+      "found": 0,
       "added": 0
     },
     "noolaham": {
@@ -36,18 +36,18 @@
     }
   },
   "stats": {
-    "bing_raw": 134,
+    "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> GitHub - excalidraw/excalidraw: Virtual whiteboard for sketching hand  | https://github.com/excalidraw/excalidraw",
-      "யாழ்ப்பாணம் தொல்லியல் -> Fish Oil 1000 mg (Label) | Dietary Supplement Label Database ... | https://dsld.od.nih.gov/label/17155",
-      "இலங்கை நடுகல் -> Definition Worksheet for Kids (Write, Use in a Sentence, Draw) | https://www.mamaslearningcorner.com/fun-way-to-write-definitions-for-k",
-      "இலங்கை பாறை ஓவியம் -> Experience Science-backed Assisted Stretching | StretchLab | https://www.stretchlab.com/",
-      "ஈழம் தொல்லியல் பிராமி -> Bending Brigade | Avatar Wiki | Fandom | https://avatar.fandom.com/wiki/Bending_Brigade",
+      "இலங்கை தமிழ் கல்வெட்டு -> Anagram of finder — CodyCross Answer | https://codycrossanswers.com/anagram-of-finder",
+      "யாழ்ப்பாணம் தொல்லியல் -> Axiom Investors | Global Growth Equity Manager | https://axiominvestors.com/",
+      "இலங்கை நடுகல் -> Released: September 2026 Exchange Server Security Updates | Microsoft  | https://techcommunity.microsoft.com/blog/exchange/released-september-2",
+      "இலங்கை பாறை ஓவியம் -> Sweepstakes - HGTV | https://www.hgtv.com/sweepstakes",
+      "ஈழம் தொல்லியல் பிராமி -> Marlboro Reds Pack Price Guide 2026 - latestcost.com | https://latestcost.com/marlboro-reds-pack-price/",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Pinterest | https://www.pinterest.com/",
-      "Trincomalee Tamil inscription -> Employees - Franciscan Health | https://www.franciscanhealth.org/about/employees",
+      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
+      "Trincomalee Tamil inscription -> Bokep Indo – BokepHot | Nonton Bokep Indo | https://bokephot.net/categories/indonesia/",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
@@ -55,6 +55,24 @@
     "openalex_raw": 719
   },
   "errors": [
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
     "403 https://noolaham.org/wiki/api.php",
     "403 https://noolaham.org/w/api.php",
     "403 https://www.noolaham.org/wiki/api.php"
