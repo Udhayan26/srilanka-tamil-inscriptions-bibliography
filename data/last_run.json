@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,15 +7,15 @@
       "added": 0
     },
     "web": {
-      "found": 29,
+      "found": 0,
       "added": 0
     },
     "ddg": {
-      "found": 73,
-      "added": 3
+      "found": 71,
+      "added": 1
     },
     "wikipedia": {
-      "found": 48,
+      "found": 47,
       "added": 0
     },
     "ezhuna": {
@@ -27,7 +27,7 @@
       "added": 0
     },
     "openalex": {
-      "found": 85,
+      "found": 84,
       "added": 0
     },
     "crossref": {
@@ -36,18 +36,18 @@
     }
   },
   "stats": {
-    "bing_raw": 144,
+    "bing_raw": 139,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Catalina Yachts Michael Reardon Fiasco, An Honest Analysis | https://teaksteel.com/sailboats/2025/catalina-yachts-michael-reardon-f",
-      "யாழ்ப்பாணம் தொல்லியல் -> யாழ்ப்பாணம் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%AF%E0%AE%BE%E0%AE%B4%E0%AF%8D%E0%",
-      "இலங்கை நடுகல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "இலங்கை பாறை ஓவியம் -> பாறை ஓவியம் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88_%E0",
-      "ஈழம் தொல்லியல் பிராமி -> ஈழத்தின் தொன்ம மொழியும் தொல்லியல் ஆதாரங்களும் - Tamil Heritage | https://telibrary.com/ancient-language-of-eelam-and-archaeological-evi",
-      "Sri Lanka Tamil inscription -> Tamil inscriptions in Sri Lanka - Wikipedia | https://en.wikipedia.org/wiki/Tamil_inscriptions_in_Sri_Lanka",
+      "இலங்கை தமிழ் கல்வெட்டு -> Trezor Suite App (Official) | Desktop & Web Crypto Management | Trezor | https://suite.trezor.io/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Today's selection - XNXX.COM | https://www.xnxx.com/todays-selection/",
+      "இலங்கை நடுகல் -> Released: September 2026 Exchange Server Security Updates | Microsoft  | https://techcommunity.microsoft.com/blog/exchange/released-september-2",
+      "இலங்கை பாறை ஓவியம் -> Reddit - Dive into anything | https://www.reddit.com/",
+      "ஈழம் தொல்லியல் பிராமி -> Bill Bailey Tickets | Leeds - firstdirectbankarena.com | https://www.firstdirectbankarena.com/events/detail/bill-bailey-2026",
+      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> VGC - Video Games Chronicle | https://www.videogameschronicle.com/",
-      "Vanni archaeology Tamil -> வன்னி (மரம்) - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%A9%E0%AF%8D%E0%AE%A9%E0%",
-      "Trincomalee Tamil inscription -> A Tamil Inscription - sethuramanepigraphist.com | https://sethuramanepigraphist.com/wp-content/uploads/2022/07/A-Tamil-I",
+      "Jaffna archaeology -> NBA Scores, 2026-27 Season - ESPN | https://www.espn.com/nba/scoreboard",
+      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
+      "Trincomalee Tamil inscription -> Trincomalee - Wikipedia | https://en.wikipedia.org/wiki/Trincomalee",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
