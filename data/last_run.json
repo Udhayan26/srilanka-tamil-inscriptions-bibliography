@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "backfill": false,
   "sources": {
     "news": {
-      "found": 1,
+      "found": 0,
       "added": 0
     },
     "web": {
@@ -11,8 +11,8 @@
       "added": 0
     },
     "ddg": {
-      "found": 80,
-      "added": 3
+      "found": 82,
+      "added": 5
     },
     "wikipedia": {
       "found": 44,
@@ -27,8 +27,8 @@
       "added": 0
     },
     "openalex": {
-      "found": 87,
-      "added": 0
+      "found": 89,
+      "added": 1
     },
     "crossref": {
       "found": 8,
@@ -36,20 +36,15 @@
     }
   },
   "stats": {
-    "bing_raw": 138,
+    "bing_raw": 70,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Online Timer - Countdown - vClock | https://vclock.com/timer/",
-      "யாழ்ப்பாணம் தொல்லியல் -> Buy Guns Online - Browse By Category | https://www.guns.com/firearms",
-      "இலங்கை நடுகல் -> Cute Black Girl Porn Videos | Pornhub.com | https://www.pornhub.com/video/search?search=cute+black+girl",
-      "இலங்கை பாறை ஓவியம் -> Papa John's Pizza | https://www.papajohns.com/",
-      "ஈழம் தொல்லியல் பிராமி -> Recently Played Online Games and Puzzles from AARP | https://games.aarp.org/category/recently-played",
-      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
-      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Log in - HealthCheck | https://www.achhealthcheck.com/",
-      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
-      "Trincomalee Tamil inscription -> Types of COVID-19 Treatment | Covid | CDC | https://www.cdc.gov/covid/treatment/index.html",
-      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
-      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
+      "இலங்கை தமிழ் கல்வெட்டு -> How to Open an Offshore Bank Account | Find the Best Offshore Bank Acc | https://internationalman.com/offshore-banking/",
+      "Sri Lanka Tamil inscription -> Redeem – Microsoft Rewards - Bing | https://www.bing.com/rewards/redeem/all",
+      "Jaffna archaeology -> Kilogram - Wikipedia | https://en.wikipedia.org/wiki/Kilogram",
+      "Vanni archaeology Tamil -> Vanni Chile | Fábrica de envases descartables | https://www.vannichile.cl/nosotros-vanni/",
+      "Sri Lanka hero stone -> O que a China tem feito para enfrentar os desafios da crise climática  | https://revistaforum.com.br/global/o-que-a-china-tem-feito-para-enfren",
+      "Kantarodai archaeology -> Design system for layer 2 using ZK rollup - DEV Community | https://dev.to/dwarvesf/design-system-for-layer-2-using-zk-rollup-1pf7",
+      "Tamil coins Sri Lanka archaeology -> YouTube Community - Google Help | https://support.google.com/youtube/Community"
     ],
     "ddg_raw": 140,
     "openalex_raw": 729
