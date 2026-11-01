@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "backfill": false,
   "sources": {
     "news": {
@@ -11,11 +11,11 @@
       "added": 0
     },
     "ddg": {
-      "found": 82,
-      "added": 5
+      "found": 77,
+      "added": 0
     },
     "wikipedia": {
-      "found": 44,
+      "found": 46,
       "added": 0
     },
     "ezhuna": {
@@ -28,7 +28,7 @@
     },
     "openalex": {
       "found": 89,
-      "added": 1
+      "added": 0
     },
     "crossref": {
       "found": 8,
@@ -36,15 +36,20 @@
     }
   },
   "stats": {
-    "bing_raw": 70,
+    "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> How to Open an Offshore Bank Account | Find the Best Offshore Bank Acc | https://internationalman.com/offshore-banking/",
-      "Sri Lanka Tamil inscription -> Redeem – Microsoft Rewards - Bing | https://www.bing.com/rewards/redeem/all",
-      "Jaffna archaeology -> Kilogram - Wikipedia | https://en.wikipedia.org/wiki/Kilogram",
-      "Vanni archaeology Tamil -> Vanni Chile | Fábrica de envases descartables | https://www.vannichile.cl/nosotros-vanni/",
-      "Sri Lanka hero stone -> O que a China tem feito para enfrentar os desafios da crise climática  | https://revistaforum.com.br/global/o-que-a-china-tem-feito-para-enfren",
-      "Kantarodai archaeology -> Design system for layer 2 using ZK rollup - DEV Community | https://dev.to/dwarvesf/design-system-for-layer-2-using-zk-rollup-1pf7",
-      "Tamil coins Sri Lanka archaeology -> YouTube Community - Google Help | https://support.google.com/youtube/Community"
+      "இலங்கை தமிழ் கல்வெட்டு -> New Microsoft Certified: Azure AI Apps and Agents Developer Associate  | https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft",
+      "யாழ்ப்பாணம் தொல்லியல் -> xHamster - Free Porn Videos & XXX Movies - Sex Videos Tube | https://xhamster.com/",
+      "இலங்கை நடுகல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "இலங்கை பாறை ஓவியம் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "ஈழம் தொல்லியல் பிராமி -> Amazon.com. Spend less. Smile more. | https://www.amazon.com/",
+      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
+      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
+      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
+      "Vanni archaeology Tamil -> New Microsoft Certified: Azure AI Apps and Agents Developer Associate  | https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft",
+      "Trincomalee Tamil inscription -> How to determine if an email from Microsoft support is genuine | https://learn.microsoft.com/en-us/troubleshoot/azure/general/email-dom",
+      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
+      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
     "ddg_raw": 140,
     "openalex_raw": 729
