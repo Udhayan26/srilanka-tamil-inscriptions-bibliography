@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "backfill": false,
   "sources": {
     "news": {
@@ -11,15 +11,15 @@
       "added": 0
     },
     "ddg": {
-      "found": 77,
-      "added": 0
+      "found": 81,
+      "added": 2
     },
     "wikipedia": {
       "found": 46,
       "added": 0
     },
     "ezhuna": {
-      "found": 186,
+      "found": 0,
       "added": 0
     },
     "noolaham": {
@@ -36,18 +36,18 @@
     }
   },
   "stats": {
-    "bing_raw": 140,
+    "bing_raw": 134,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> New Microsoft Certified: Azure AI Apps and Agents Developer Associate  | https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft",
-      "யாழ்ப்பாணம் தொல்லியல் -> xHamster - Free Porn Videos & XXX Movies - Sex Videos Tube | https://xhamster.com/",
-      "இலங்கை நடுகல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "இலங்கை பாறை ஓவியம் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "ஈழம் தொல்லியல் பிராமி -> Amazon.com. Spend less. Smile more. | https://www.amazon.com/",
+      "இலங்கை தமிழ் கல்வெட்டு -> Café Locator: Starbucks Coffee Company | https://www.starbucks.com/store-locator/index.htm",
+      "யாழ்ப்பாணம் தொல்லியல் -> Jean-Michel Jarre - Wikipedia | https://en.wikipedia.org/wiki/Jean-Michel_Jarre",
+      "இலங்கை நடுகல் -> Characteristics Of Different Business Markets - bartleby | https://www.bartleby.com/essay/Characteristics-Of-Different-Business-M",
+      "இலங்கை பாறை ஓவியம் -> Concerts & Events in Seattle, WA | Bandsintown | https://www.bandsintown.com/c/seattle-wa",
+      "ஈழம் தொல்லியல் பிராமி -> PING Golf Irons | PING | https://ping.com/en-us/golf-clubs/irons",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> New Microsoft Certified: Azure AI Apps and Agents Developer Associate  | https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft",
-      "Trincomalee Tamil inscription -> How to determine if an email from Microsoft support is genuine | https://learn.microsoft.com/en-us/troubleshoot/azure/general/email-dom",
+      "Vanni archaeology Tamil -> Who Can Get Sickle Cell? Populations and Inheritance | https://scienceinsights.org/who-can-get-sickle-cell-populations-and-in",
+      "Trincomalee Tamil inscription -> Donald Trump | Breaking News & Latest Updates | AP News | https://apnews.com/hub/donald-trump",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
@@ -55,6 +55,24 @@
     "openalex_raw": 729
   },
   "errors": [
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
     "403 https://noolaham.org/wiki/api.php",
     "403 https://noolaham.org/w/api.php",
     "403 https://www.noolaham.org/wiki/api.php"
