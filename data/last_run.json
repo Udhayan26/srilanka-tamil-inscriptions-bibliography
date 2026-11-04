@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "backfill": false,
   "sources": {
     "news": {
       "found": 1,
-      "added": 1
+      "added": 0
     },
     "web": {
-      "found": 0,
+      "found": 9,
       "added": 0
     },
     "ddg": {
-      "found": 75,
-      "added": 2
+      "found": 79,
+      "added": 3
     },
     "wikipedia": {
-      "found": 43,
+      "found": 47,
       "added": 0
     },
     "ezhuna": {
@@ -36,18 +36,18 @@
     }
   },
   "stats": {
-    "bing_raw": 117,
+    "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Kimi Antonelli - Wikipedia | https://en.wikipedia.org/wiki/Kimi_Antonelli",
-      "யாழ்ப்பாணம் தொல்லியல் -> Time in London – Live Clock (GMT / BST) | https://www.timeinlondon.co.uk/",
-      "இலங்கை நடுகல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "இலங்கை பாறை ஓவியம் -> How to wow new clients: 8 proven methods (with examples) | https://contentsnare.com/how-to-wow-new-clients/",
-      "ஈழம் தொல்லியல் பிராமி -> Google Translate | https://translate.google.fr/_/TranslateWebserverUi/bscframe",
-      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
+      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Understanding the ominous rise of Israel's most notorious ultra ... | https://www.timesofisrael.com/understanding-the-ominous-rise-of-israel",
+      "இலங்கை நடுகல் -> Jason Gonzalez at University of Georgia | Rate My Professors | https://www.ratemyprofessors.com/professor/1969849",
+      "இலங்கை பாறை ஓவியம் -> பாறை ஓவியம் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88_%E0",
+      "ஈழம் தொல்லியல் பிராமி -> Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub | https://www.pornhub.com/",
+      "Sri Lanka Tamil inscription -> Tamil inscriptions in Sri Lanka - Wikipedia | https://en.wikipedia.org/wiki/Tamil_inscriptions_in_Sri_Lanka",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Kohl's | Shop Clothing, Shoes, Home, Kitchen, Bedding ... | https://www.kohls.com/",
-      "Trincomalee Tamil inscription -> Ireland – The History Mom | https://thehistorymom.com/ireland/",
+      "Jaffna archaeology -> UW Homepage – University of Washington | https://www.washington.edu/",
+      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
+      "Trincomalee Tamil inscription -> Francs Borains Standings 26/27 | Challenger Pro League Table | LiveSco | https://www.livescore.com/en/football/team/royal-francs-borains/11050/",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
