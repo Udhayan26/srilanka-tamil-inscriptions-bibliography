@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,15 +7,15 @@
       "added": 0
     },
     "web": {
-      "found": 9,
+      "found": 0,
       "added": 0
     },
     "ddg": {
-      "found": 79,
-      "added": 3
+      "found": 80,
+      "added": 1
     },
     "wikipedia": {
-      "found": 47,
+      "found": 42,
       "added": 0
     },
     "ezhuna": {
@@ -27,8 +27,8 @@
       "added": 0
     },
     "openalex": {
-      "found": 89,
-      "added": 0
+      "found": 44,
+      "added": 1
     },
     "crossref": {
       "found": 8,
@@ -36,23 +36,23 @@
     }
   },
   "stats": {
-    "bing_raw": 140,
+    "bing_raw": 132,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "யாழ்ப்பாணம் தொல்லியல் -> Understanding the ominous rise of Israel's most notorious ultra ... | https://www.timesofisrael.com/understanding-the-ominous-rise-of-israel",
-      "இலங்கை நடுகல் -> Jason Gonzalez at University of Georgia | Rate My Professors | https://www.ratemyprofessors.com/professor/1969849",
-      "இலங்கை பாறை ஓவியம் -> பாறை ஓவியம் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88_%E0",
-      "ஈழம் தொல்லியல் பிராமி -> Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube | Pornhub | https://www.pornhub.com/",
-      "Sri Lanka Tamil inscription -> Tamil inscriptions in Sri Lanka - Wikipedia | https://en.wikipedia.org/wiki/Tamil_inscriptions_in_Sri_Lanka",
+      "இலங்கை தமிழ் கல்வெட்டு -> Election 2026: Results, news and analysis | CNN Politics | https://www.cnn.com/election/2026",
+      "யாழ்ப்பாணம் தொல்லியல் -> Restore Facebook end-to-end encrypted messages with a PIN | https://www.facebook.com/help/788608835594735/",
+      "இலங்கை நடுகல் -> Bank of America - Official Site | https://www.bankofamerica.com/",
+      "இலங்கை பாறை ஓவியம் -> Wordle — The New York Times | https://www.nytimes.com/games/wordle/index.html",
+      "ஈழம் தொல்லியல் பிராமி -> The First Nudie Musical (1976) - IMDb | https://www.imdb.com/title/tt0074533/",
+      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> UW Homepage – University of Washington | https://www.washington.edu/",
-      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
-      "Trincomalee Tamil inscription -> Francs Borains Standings 26/27 | Challenger Pro League Table | LiveSco | https://www.livescore.com/en/football/team/royal-francs-borains/11050/",
+      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
+      "Vanni archaeology Tamil -> Events - Wembley Stadium | https://www.wembleystadium.com/events",
+      "Trincomalee Tamil inscription -> The Home Depot | https://www.homedepot.com/",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
     "ddg_raw": 140,
-    "openalex_raw": 729
+    "openalex_raw": 362
   },
   "errors": [
     "403 https://noolaham.org/wiki/api.php",
