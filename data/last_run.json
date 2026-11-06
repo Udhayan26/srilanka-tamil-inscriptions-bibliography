@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "backfill": false,
   "sources": {
     "news": {
@@ -11,11 +11,11 @@
       "added": 0
     },
     "ddg": {
-      "found": 80,
-      "added": 1
+      "found": 76,
+      "added": 4
     },
     "wikipedia": {
-      "found": 42,
+      "found": 47,
       "added": 0
     },
     "ezhuna": {
@@ -23,12 +23,12 @@
       "added": 0
     },
     "noolaham": {
-      "found": 0,
-      "added": 0
+      "found": 25,
+      "added": 17
     },
     "openalex": {
-      "found": 44,
-      "added": 1
+      "found": 93,
+      "added": 0
     },
     "crossref": {
       "found": 8,
@@ -36,27 +36,23 @@
     }
   },
   "stats": {
-    "bing_raw": 132,
+    "bing_raw": 137,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Election 2026: Results, news and analysis | CNN Politics | https://www.cnn.com/election/2026",
-      "யாழ்ப்பாணம் தொல்லியல் -> Restore Facebook end-to-end encrypted messages with a PIN | https://www.facebook.com/help/788608835594735/",
-      "இலங்கை நடுகல் -> Bank of America - Official Site | https://www.bankofamerica.com/",
-      "இலங்கை பாறை ஓவியம் -> Wordle — The New York Times | https://www.nytimes.com/games/wordle/index.html",
-      "ஈழம் தொல்லியல் பிராமி -> The First Nudie Musical (1976) - IMDb | https://www.imdb.com/title/tt0074533/",
+      "இலங்கை தமிழ் கல்வெட்டு -> Jak Získat Živnostenské Oprávnění v ČR: Kompletní Průvodce a ... | https://cestovanijezivot.cz/uzitecne_rady/pruvodce-cestovniho-ruchu-zi",
+      "யாழ்ப்பாணம் தொல்லியல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "இலங்கை நடுகல் -> Service Charges related to Cards - Canara Bank | https://www.canarabank.bank.in/pages/service-charges-related-to-cards",
+      "இலங்கை பாறை ஓவியம் -> Boni Wozolek, Ph.D. - Penn State Abington | https://www.abington.psu.edu/person/boni-wozolek-phd",
+      "ஈழம் தொல்லியல் பிராமி -> Eli Lilly and Company (LLY) Stock Price, News, Quote & History - Yahoo | https://finance.yahoo.com/quote/LLY/",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Events - Wembley Stadium | https://www.wembleystadium.com/events",
-      "Trincomalee Tamil inscription -> The Home Depot | https://www.homedepot.com/",
+      "Vanni archaeology Tamil -> Outlook - webmail.apps.mil | https://webmail.apps.mil/mail/?realm=army.mil",
+      "Trincomalee Tamil inscription -> Roblox | https://www.roblox.com/",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
     "ddg_raw": 140,
-    "openalex_raw": 362
+    "openalex_raw": 729
   },
-  "errors": [
-    "403 https://noolaham.org/wiki/api.php",
-    "403 https://noolaham.org/w/api.php",
-    "403 https://www.noolaham.org/wiki/api.php"
-  ]
+  "errors": []
 }
