@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "backfill": false,
   "sources": {
     "news": {
@@ -11,15 +11,15 @@
       "added": 0
     },
     "ddg": {
-      "found": 75,
-      "added": 1
+      "found": 72,
+      "added": 4
     },
     "wikipedia": {
-      "found": 48,
+      "found": 47,
       "added": 0
     },
     "ezhuna": {
-      "found": 0,
+      "found": 186,
       "added": 0
     },
     "noolaham": {
@@ -36,42 +36,23 @@
     }
   },
   "stats": {
-    "bing_raw": 137,
+    "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
-      "யாழ்ப்பாணம் தொல்லியல் -> Best Freaky songs - YouTube Music | https://music.youtube.com/playlist?list=PL2cHgoyqXICZadLCk-CWBmk2v5gUa",
-      "இலங்கை நடுகல் -> How To Replace Your Refrigerator Hinge: A Step-By-Step Guide | https://cycookery.com/article/can-i-change-the-hinge-on-my-refrigerato",
-      "இலங்கை பாறை ஓவியம் -> AOL.com - News, Sports, Weather, Entertainment, Local ... | https://www.aol.com/",
-      "ஈழம் தொல்லியல் பிராமி -> Amazon.com. Spend less. Smile more. | https://www.amazon.com/",
-      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
-      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Google Drive - Cloud Storage & File Backup for Photos ... | https://www.google.com/drive/",
-      "Vanni archaeology Tamil -> Trump joins Hannity-Earhardt wedding rehearsal dinner at Mar-a-Lago | https://ground.news/article/trump-joins-hannity-earhardt-wedding-rehea",
-      "Trincomalee Tamil inscription -> Trincomalee - Wikipedia | https://en.m.wikipedia.org/wiki/Trincomalee",
-      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
-      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
+      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "இலங்கை நடுகல் -> Recipes - Find Your New Favorite Creation | Torani Flavored Syrups | https://www.torani.com/recipes.html",
+      "இலங்கை பாறை ஓவியம் -> Facebook Marketplace: Buy and Sell Items Locally or Shipped | https://www.facebook.com/marketplace/",
+      "ஈழம் தொல்லியல் பிராமி -> YouTube | https://www.youtube.com/",
+      "Sri Lanka Tamil inscription -> YouTube | https://www.youtube.com/",
+      "Sri Lanka Tamil Brahmi -> Make a Payment - Public Storage | https://help.publicstorage.com/manage-your-account/payments/make-a-pay",
+      "Jaffna archaeology -> The QR Code Generator (TQRCG): Create Free QR Codes | https://www.the-qrcode-generator.com/",
+      "Vanni archaeology Tamil -> Transfer an HBO Max profile | https://help.hbomax.com/us/Answer/Detail/000002602",
+      "Trincomalee Tamil inscription -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
+      "Sri Lanka hero stone -> Instagram | https://www.instagram.com/",
+      "Sri Lanka rock art cave painting -> Things To Do in Toronto this weekend | AllEvents | https://allevents.in/toronto/this-weekend"
     ],
-    "ddg_raw": 139,
+    "ddg_raw": 140,
     "openalex_raw": 729
   },
-  "errors": [
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A"
-  ]
+  "errors": []
 }
