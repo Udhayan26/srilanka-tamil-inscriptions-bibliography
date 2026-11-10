@@ -1,25 +1,25 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "backfill": false,
   "sources": {
     "news": {
-      "found": 1,
-      "added": 0
-    },
-    "web": {
       "found": 0,
       "added": 0
     },
-    "ddg": {
-      "found": 72,
-      "added": 4
-    },
-    "wikipedia": {
-      "found": 47,
+    "web": {
+      "found": 1,
       "added": 0
     },
+    "ddg": {
+      "found": 74,
+      "added": 1
+    },
+    "wikipedia": {
+      "found": 49,
+      "added": 1
+    },
     "ezhuna": {
-      "found": 186,
+      "found": 0,
       "added": 0
     },
     "noolaham": {
@@ -38,21 +38,40 @@
   "stats": {
     "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "யாழ்ப்பாணம் தொல்லியல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "இலங்கை நடுகல் -> Recipes - Find Your New Favorite Creation | Torani Flavored Syrups | https://www.torani.com/recipes.html",
-      "இலங்கை பாறை ஓவியம் -> Facebook Marketplace: Buy and Sell Items Locally or Shipped | https://www.facebook.com/marketplace/",
-      "ஈழம் தொல்லியல் பிராமி -> YouTube | https://www.youtube.com/",
-      "Sri Lanka Tamil inscription -> YouTube | https://www.youtube.com/",
-      "Sri Lanka Tamil Brahmi -> Make a Payment - Public Storage | https://help.publicstorage.com/manage-your-account/payments/make-a-pay",
-      "Jaffna archaeology -> The QR Code Generator (TQRCG): Create Free QR Codes | https://www.the-qrcode-generator.com/",
-      "Vanni archaeology Tamil -> Transfer an HBO Max profile | https://help.hbomax.com/us/Answer/Detail/000002602",
+      "இலங்கை தமிழ் கல்வெட்டு -> Facebook - Log In or Sign Up | https://www.facebook.com",
+      "யாழ்ப்பாணம் தொல்லியல் -> Park - Wikipedia | https://en.m.wikipedia.org/wiki/Park",
+      "இலங்கை நடுகல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "இலங்கை பாறை ஓவியம் -> Los Angeles Lakers NBA Roster - ESPN | https://www.espn.com/nba/team/roster/_/name/lal/los-angeles-lakers",
+      "ஈழம் தொல்லியல் பிராமி -> AMD’s server and data center success is 'undeniable,' says Oppenheimer | https://www.msn.com/en-us/money/technology/amd-s-server-and-data-cente",
+      "Sri Lanka Tamil inscription -> Home | SRI Services | https://sriservices.com/",
+      "Sri Lanka Tamil Brahmi -> Home | SRI Services | https://sriservices.com/",
+      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
+      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
       "Trincomalee Tamil inscription -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
-      "Sri Lanka hero stone -> Instagram | https://www.instagram.com/",
-      "Sri Lanka rock art cave painting -> Things To Do in Toronto this weekend | AllEvents | https://allevents.in/toronto/this-weekend"
+      "Sri Lanka hero stone -> Home | SRI Services | https://sriservices.com/",
+      "Sri Lanka rock art cave painting -> Home | SRI Services | https://sriservices.com/"
     ],
     "ddg_raw": 140,
     "openalex_raw": 729
   },
-  "errors": []
+  "errors": [
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
+    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A"
+  ]
 }
