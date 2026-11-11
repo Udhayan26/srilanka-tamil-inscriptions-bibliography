@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,16 +7,16 @@
       "added": 0
     },
     "web": {
-      "found": 1,
+      "found": 0,
       "added": 0
     },
     "ddg": {
-      "found": 74,
-      "added": 1
+      "found": 72,
+      "added": 3
     },
     "wikipedia": {
-      "found": 49,
-      "added": 1
+      "found": 48,
+      "added": 0
     },
     "ezhuna": {
       "found": 0,
@@ -36,20 +36,20 @@
     }
   },
   "stats": {
-    "bing_raw": 140,
+    "bing_raw": 137,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Facebook - Log In or Sign Up | https://www.facebook.com",
-      "யாழ்ப்பாணம் தொல்லியல் -> Park - Wikipedia | https://en.m.wikipedia.org/wiki/Park",
-      "இலங்கை நடுகல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "இலங்கை பாறை ஓவியம் -> Los Angeles Lakers NBA Roster - ESPN | https://www.espn.com/nba/team/roster/_/name/lal/los-angeles-lakers",
-      "ஈழம் தொல்லியல் பிராமி -> AMD’s server and data center success is 'undeniable,' says Oppenheimer | https://www.msn.com/en-us/money/technology/amd-s-server-and-data-cente",
-      "Sri Lanka Tamil inscription -> Home | SRI Services | https://sriservices.com/",
-      "Sri Lanka Tamil Brahmi -> Home | SRI Services | https://sriservices.com/",
+      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Yahoo Mail | Email with smart features and top-notch security | https://mail.yahoo.com/",
+      "இலங்கை நடுகல் -> Reddit - Dive into anything | https://www.reddit.com/",
+      "இலங்கை பாறை ஓவியம் -> 'bokep' Search - XNXX.COM | https://www.xnxx.com/search/bokep",
+      "ஈழம் தொல்லியல் பிராமி -> 'bokep' Search - XNXX.COM | https://www.xnxx.com/search/bokep",
+      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
+      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
-      "Trincomalee Tamil inscription -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
-      "Sri Lanka hero stone -> Home | SRI Services | https://sriservices.com/",
-      "Sri Lanka rock art cave painting -> Home | SRI Services | https://sriservices.com/"
+      "Vanni archaeology Tamil -> The right way to compare a System.Double to '0' (a number, int?) | https://stackoverflow.com/questions/6598179/the-right-way-to-compare-a",
+      "Trincomalee Tamil inscription -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
+      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
     "ddg_raw": 140,
     "openalex_raw": 729
