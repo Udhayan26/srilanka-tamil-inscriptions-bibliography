@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,15 +7,15 @@
       "added": 0
     },
     "web": {
-      "found": 0,
+      "found": 19,
       "added": 0
     },
     "ddg": {
-      "found": 78,
+      "found": 76,
       "added": 2
     },
     "wikipedia": {
-      "found": 48,
+      "found": 49,
       "added": 0
     },
     "ezhuna": {
@@ -27,8 +27,8 @@
       "added": 0
     },
     "openalex": {
-      "found": 93,
-      "added": 0
+      "found": 97,
+      "added": 2
     },
     "crossref": {
       "found": 8,
@@ -36,18 +36,18 @@
     }
   },
   "stats": {
-    "bing_raw": 133,
+    "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Shipping locations near you | FedEx Charlotte | https://local.fedex.com/en-us/nc/charlotte",
-      "யாழ்ப்பாணம் தொல்லியல் -> Free Porn, Sex, Tube Videos, XXX Pics, Pussy in Porno Movies - XNXX.CO | https://www.xnxx.com/",
-      "இலங்கை நடுகல் -> U.S. News & World Report: News, Rankings and Analysis on Politics ... | https://www.usnews.com/",
-      "இலங்கை பாறை ஓவியம் -> Home - RV Insurance Solutions | https://www.rvinsurancesolutions.com/",
-      "ஈழம் தொல்லியல் பிராமி -> Audrey Castanon - Bilingual Accounting Mgr specializing in ... - Linke | https://www.linkedin.com/in/audrey-castanon-134280b0",
-      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
+      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "யாழ்ப்பாணம் தொல்லியல் -> யாழ்ப்பாணம் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%AF%E0%AE%BE%E0%AE%B4%E0%AF%8D%E0%",
+      "இலங்கை நடுகல் -> janitor - Login | https://janitorai.com/login/",
+      "இலங்கை பாறை ஓவியம் -> பாறை ஓவியம் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88_%E0",
+      "ஈழம் தொல்லியல் பிராமி -> Chomp Soundboard - Instant Sound Buttons | Myinstants | https://www.myinstants.com/en/search/?name=Chomp",
+      "Sri Lanka Tamil inscription -> Tamil inscriptions in Sri Lanka - Wikipedia | https://en.wikipedia.org/wiki/Tamil_inscriptions_in_Sri_Lanka",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "Vanni archaeology Tamil -> 2026 Free Art Contests | https://www.free-art-contests.com/",
-      "Trincomalee Tamil inscription -> Netflix - Official Site | https://www.netflix.com",
+      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.wikipedia.org/wiki/Jaffna",
+      "Vanni archaeology Tamil -> வன்னி (மரம்) - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%A9%E0%AF%8D%E0%AE%A9%E0%",
+      "Trincomalee Tamil inscription -> Home | Seattle Central College | https://seattlecentral.edu/",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
