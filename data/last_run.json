@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,19 +7,19 @@
       "added": 0
     },
     "web": {
-      "found": 19,
+      "found": 0,
       "added": 0
     },
     "ddg": {
-      "found": 76,
-      "added": 2
+      "found": 72,
+      "added": 3
     },
     "wikipedia": {
-      "found": 49,
+      "found": 48,
       "added": 0
     },
     "ezhuna": {
-      "found": 0,
+      "found": 186,
       "added": 0
     },
     "noolaham": {
@@ -28,7 +28,7 @@
     },
     "openalex": {
       "found": 97,
-      "added": 2
+      "added": 0
     },
     "crossref": {
       "found": 8,
@@ -38,40 +38,21 @@
   "stats": {
     "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "யாழ்ப்பாணம் தொல்லியல் -> யாழ்ப்பாணம் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%AF%E0%AE%BE%E0%AE%B4%E0%AF%8D%E0%",
-      "இலங்கை நடுகல் -> janitor - Login | https://janitorai.com/login/",
-      "இலங்கை பாறை ஓவியம் -> பாறை ஓவியம் - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88_%E0",
-      "ஈழம் தொல்லியல் பிராமி -> Chomp Soundboard - Instant Sound Buttons | Myinstants | https://www.myinstants.com/en/search/?name=Chomp",
-      "Sri Lanka Tamil inscription -> Tamil inscriptions in Sri Lanka - Wikipedia | https://en.wikipedia.org/wiki/Tamil_inscriptions_in_Sri_Lanka",
-      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> வன்னி (மரம்) - தமிழ் விக்கிப்பீடியா | https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%A9%E0%AF%8D%E0%AE%A9%E0%",
-      "Trincomalee Tamil inscription -> Home | Seattle Central College | https://seattlecentral.edu/",
-      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
-      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
+      "இலங்கை தமிழ் கல்வெட்டு -> Harvard Business Impact Education - Harvard Business Publishing Educat | https://hbsp.harvard.edu/catalog/collections/human-resources",
+      "யாழ்ப்பாணம் தொல்லியல் -> Hotels.com - Deals & Discounts for Hotel Reservations from Luxury ... | https://www.hotels.com/",
+      "இலங்கை நடுகல் -> 10 Days from Today - Date Calculator | https://timedatecalc.com/10-days-from-today",
+      "இலங்கை பாறை ஓவியம் -> Cm to Feet+Inches Converter (cm to ft) - The Calculator Site | https://www.thecalculatorsite.com/conversions/common/cm-to-feet-inches",
+      "ஈழம் தொல்லியல் பிராமி -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "Sri Lanka Tamil inscription -> The 38 Best Restaurants in Seattle | https://seattle.eater.com/maps/best-restaurants-seattle-38",
+      "Sri Lanka Tamil Brahmi -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "Jaffna archaeology -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "Vanni archaeology Tamil -> 2026 Yankees Standings and Record: Regular Season | https://www.mlb.com/yankees/standings/",
+      "Trincomalee Tamil inscription -> Pinterest - Official Site | https://www.pinterest.com/",
+      "Sri Lanka hero stone -> 10 Minute Timer - YouTube | https://m.youtube.com/watch?v=v77I_bByCDQ",
+      "Sri Lanka rock art cave painting -> Tracking | UPS - United States | https://www.ups.com/track?loc=EN_US"
     ],
     "ddg_raw": 140,
     "openalex_raw": 728
   },
-  "errors": [
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A"
-  ]
+  "errors": []
 }
