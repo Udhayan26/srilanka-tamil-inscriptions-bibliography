@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "backfill": false,
   "sources": {
     "news": {
@@ -11,11 +11,11 @@
       "added": 0
     },
     "ddg": {
-      "found": 80,
-      "added": 3
+      "found": 0,
+      "added": 0
     },
     "wikipedia": {
-      "found": 49,
+      "found": 48,
       "added": 0
     },
     "ezhuna": {
@@ -36,25 +36,38 @@
     }
   },
   "stats": {
-    "bing_raw": 131,
+    "bing_raw": 141,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Solo Leveling - Funko | https://funko.com/fandoms/anime-manga/solo-leveling/",
-      "யாழ்ப்பாணம் தொல்லியல் -> What's On - The Princess Pavilion, Falmouth | https://www.falmouthtowncouncil.co.uk/princesspavilion/whats-on-prince",
-      "இலங்கை நடுகல் -> Arthur Kronfeld - Wikipedia | https://en.wikipedia.org/wiki/Arthur_Kronfeld",
-      "இலங்கை பாறை ஓவியம் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "ஈழம் தொல்லியல் பிராமி -> Gmail - Email from Google | https://mail.google.com/mail",
-      "Sri Lanka Tamil inscription -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/",
-      "Sri Lanka Tamil Brahmi -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/",
+      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "யாழ்ப்பாணம் தொல்லியல் -> ADVANCE Definition & Meaning - Merriam-Webster | https://www.merriam-webster.com/dictionary/advance",
+      "இலங்கை நடுகல் -> Mattresses & Bed In A Box - Queen, King, Twin & More | Casper | https://casper.com/collections/mattresses",
+      "இலங்கை பாறை ஓவியம் -> transzone.com | https://www.transzone.com/optimizer",
+      "ஈழம் தொல்லியல் பிராமி -> Login - Therap | https://secure.therapservices.net/auth/login",
+      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
+      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Walmart.com | Save Money. Live Better. | https://www.walmart.com/",
-      "Trincomalee Tamil inscription -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "Sri Lanka hero stone -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/",
-      "Sri Lanka rock art cave painting -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/"
+      "Vanni archaeology Tamil -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
+      "Trincomalee Tamil inscription -> Trincomalee - Wikipedia | https://en.wikipedia.org/wiki/Trincomalee",
+      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
+      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
-    "ddg_raw": 140,
-    "openalex_raw": 726
+    "openalex_raw": 725
   },
   "errors": [
+    "ddg 202 இலங்கை தமிழ் கல்வெட்டு",
+    "ddg 202 யாழ்ப்பாணம் தொல்லியல்",
+    "ddg 202 இலங்கை நடுகல்",
+    "ddg 202 இலங்கை பாறை ஓவியம்",
+    "ddg 202 ஈழம் தொல்லியல் பிராமி",
+    "ddg 202 Sri Lanka Tamil inscription",
+    "ddg 202 Sri Lanka Tamil Brahmi",
+    "ddg 202 Jaffna archaeology",
+    "ddg 202 Vanni archaeology Tamil",
+    "ddg 202 Trincomalee Tamil inscription",
+    "ddg 202 Sri Lanka hero stone",
+    "ddg 202 Sri Lanka rock art cave painting",
+    "ddg 202 Kantarodai archaeology",
+    "ddg 202 Tamil coins Sri Lanka archaeology",
     "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
     "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
     "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
