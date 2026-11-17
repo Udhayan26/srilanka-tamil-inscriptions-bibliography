@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "backfill": false,
   "sources": {
     "news": {
@@ -31,25 +31,25 @@
       "added": 0
     },
     "crossref": {
-      "found": 8,
+      "found": 7,
       "added": 0
     }
   },
   "stats": {
     "bing_raw": 141,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "யாழ்ப்பாணம் தொல்லியல் -> ADVANCE Definition & Meaning - Merriam-Webster | https://www.merriam-webster.com/dictionary/advance",
-      "இலங்கை நடுகல் -> Mattresses & Bed In A Box - Queen, King, Twin & More | Casper | https://casper.com/collections/mattresses",
-      "இலங்கை பாறை ஓவியம் -> transzone.com | https://www.transzone.com/optimizer",
-      "ஈழம் தொல்லியல் பிராமி -> Login - Therap | https://secure.therapservices.net/auth/login",
-      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
-      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
+      "இலங்கை தமிழ் கல்வெட்டு -> Buy Homemade Nut Rolls Online | Butter Maid Bakery | https://buttermaidbakery.com/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "இலங்கை நடுகல் -> Chaturbate, seems like more competition and less tipping these ... - R | https://www.reddit.com/r/CamGirlProblems/comments/12k1wxd/chaturbate_s",
+      "இலங்கை பாறை ஓவியம் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "ஈழம் தொல்லியல் பிராமி -> Top 10 Best Puppy Foods for 2026 | Dog Food Advisor | https://www.dogfoodadvisor.com/best-dog-foods/best-puppy-foods/",
+      "Sri Lanka Tamil inscription -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/",
+      "Sri Lanka Tamil Brahmi -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/",
+      "Jaffna archaeology -> Custom T-Shirt Printing in Sri Lanka | https://printmytshirt.lk/",
+      "Vanni archaeology Tamil -> Refer a Friend – Help Article - Sam's Club | https://help.samsclub.com/app/answers/detail/a_id/1214/~/refer-a-frien",
       "Trincomalee Tamil inscription -> Trincomalee - Wikipedia | https://en.wikipedia.org/wiki/Trincomalee",
-      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
-      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
+      "Sri Lanka hero stone -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/",
+      "Sri Lanka rock art cave painting -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/"
     ],
     "openalex_raw": 725
   },
