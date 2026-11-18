@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,19 +7,19 @@
       "added": 0
     },
     "web": {
-      "found": 0,
-      "added": 0
+      "found": 1,
+      "added": 1
     },
     "ddg": {
       "found": 0,
       "added": 0
     },
     "wikipedia": {
-      "found": 48,
+      "found": 44,
       "added": 0
     },
     "ezhuna": {
-      "found": 0,
+      "found": 186,
       "added": 0
     },
     "noolaham": {
@@ -38,18 +38,18 @@
   "stats": {
     "bing_raw": 141,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Buy Homemade Nut Rolls Online | Butter Maid Bakery | https://buttermaidbakery.com/",
-      "யாழ்ப்பாணம் தொல்லியல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "இலங்கை நடுகல் -> Chaturbate, seems like more competition and less tipping these ... - R | https://www.reddit.com/r/CamGirlProblems/comments/12k1wxd/chaturbate_s",
-      "இலங்கை பாறை ஓவியம் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "ஈழம் தொல்லியல் பிராமி -> Top 10 Best Puppy Foods for 2026 | Dog Food Advisor | https://www.dogfoodadvisor.com/best-dog-foods/best-puppy-foods/",
-      "Sri Lanka Tamil inscription -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/",
-      "Sri Lanka Tamil Brahmi -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/",
-      "Jaffna archaeology -> Custom T-Shirt Printing in Sri Lanka | https://printmytshirt.lk/",
-      "Vanni archaeology Tamil -> Refer a Friend – Help Article - Sam's Club | https://help.samsclub.com/app/answers/detail/a_id/1214/~/refer-a-frien",
-      "Trincomalee Tamil inscription -> Trincomalee - Wikipedia | https://en.wikipedia.org/wiki/Trincomalee",
-      "Sri Lanka hero stone -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/",
-      "Sri Lanka rock art cave painting -> A global leader in R&D with deep roots in Silicon Valley. | https://www.sri.com/"
+      "இலங்கை தமிழ் கல்வெட்டு -> Roblox | https://www.roblox.com/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Aries Weekly Love Horoscope | Horoscope.com | https://www.horoscope.com/us/horoscopes/love/horoscope-love-weekly.asp",
+      "இலங்கை நடுகல் -> 'bokep' Search - XNXX.COM | https://www.xnxx.com/search/bokep",
+      "இலங்கை பாறை ஓவியம் -> iPhone - Apple | https://www.apple.com/iphone/",
+      "ஈழம் தொல்லியல் பிராமி -> 7 best (mostly) all-inclusive resorts in Florida for families | https://familyvacationist.com/best-all-inclusive-resorts-in-florida-fo",
+      "Sri Lanka Tamil inscription -> SRI en Línea | https://srienlinea.sri.gob.ec/sri-en-linea/",
+      "Sri Lanka Tamil Brahmi -> SRI en Línea | https://srienlinea.sri.gob.ec/sri-en-linea/",
+      "Jaffna archaeology -> red dot Emojis | Meaning, Copy And Paste - Emojipedia | https://emojipedia.org/search?q=red%20dot",
+      "Vanni archaeology Tamil -> WordCounter - Count Words & Correct Writing | https://wordcounter.net/",
+      "Trincomalee Tamil inscription -> DT FEST 2026 - visitloudoun.org | https://www.visitloudoun.org/event/dt-fest-2026/51790/",
+      "Sri Lanka hero stone -> SRI en Línea | https://srienlinea.sri.gob.ec/sri-en-linea/",
+      "Sri Lanka rock art cave painting -> SRI en Línea | https://srienlinea.sri.gob.ec/sri-en-linea/"
     ],
     "openalex_raw": 725
   },
@@ -67,24 +67,6 @@
     "ddg 202 Sri Lanka hero stone",
     "ddg 202 Sri Lanka rock art cave painting",
     "ddg 202 Kantarodai archaeology",
-    "ddg 202 Tamil coins Sri Lanka archaeology",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%95%E0%AE%B2%E0%AF%8D%E0%AE%B5%E0%AF%86%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A4%E0%AF%8A%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%A8%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AE%B2%E0%AF%8D&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BE%E0%AE%B1%E0%AF%88%20%E0%AE%93%E0%AE%B5%E0%AE%BF%E0%AE%AF%E",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AE%BE%E0%AE%AE%E0%AE%BF&page=1",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A",
-    "ConnectTimeout https://www.ezhunaonline.com/wp-json/wp/v2/posts?per_page=100&_embed=author&search=%E0%AE%85%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%B5%E0%AE%BE%E0%AE%AF%E0%AF%8D%E0%A"
+    "ddg 202 Tamil coins Sri Lanka archaeology"
   ]
 }
