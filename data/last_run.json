@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "backfill": false,
   "sources": {
     "news": {
-      "found": 0,
-      "added": 0
-    },
-    "web": {
       "found": 1,
       "added": 1
+    },
+    "web": {
+      "found": 0,
+      "added": 0
     },
     "ddg": {
       "found": 0,
       "added": 0
     },
     "wikipedia": {
-      "found": 44,
+      "found": 49,
       "added": 0
     },
     "ezhuna": {
@@ -27,8 +27,8 @@
       "added": 0
     },
     "openalex": {
-      "found": 96,
-      "added": 0
+      "found": 97,
+      "added": 1
     },
     "crossref": {
       "found": 7,
@@ -36,22 +36,22 @@
     }
   },
   "stats": {
-    "bing_raw": 141,
+    "bing_raw": 131,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Roblox | https://www.roblox.com/",
-      "யாழ்ப்பாணம் தொல்லியல் -> Aries Weekly Love Horoscope | Horoscope.com | https://www.horoscope.com/us/horoscopes/love/horoscope-love-weekly.asp",
-      "இலங்கை நடுகல் -> 'bokep' Search - XNXX.COM | https://www.xnxx.com/search/bokep",
-      "இலங்கை பாறை ஓவியம் -> iPhone - Apple | https://www.apple.com/iphone/",
-      "ஈழம் தொல்லியல் பிராமி -> 7 best (mostly) all-inclusive resorts in Florida for families | https://familyvacationist.com/best-all-inclusive-resorts-in-florida-fo",
-      "Sri Lanka Tamil inscription -> SRI en Línea | https://srienlinea.sri.gob.ec/sri-en-linea/",
-      "Sri Lanka Tamil Brahmi -> SRI en Línea | https://srienlinea.sri.gob.ec/sri-en-linea/",
-      "Jaffna archaeology -> red dot Emojis | Meaning, Copy And Paste - Emojipedia | https://emojipedia.org/search?q=red%20dot",
-      "Vanni archaeology Tamil -> WordCounter - Count Words & Correct Writing | https://wordcounter.net/",
-      "Trincomalee Tamil inscription -> DT FEST 2026 - visitloudoun.org | https://www.visitloudoun.org/event/dt-fest-2026/51790/",
-      "Sri Lanka hero stone -> SRI en Línea | https://srienlinea.sri.gob.ec/sri-en-linea/",
-      "Sri Lanka rock art cave painting -> SRI en Línea | https://srienlinea.sri.gob.ec/sri-en-linea/"
+      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
+      "யாழ்ப்பாணம் தொல்லியல் -> Funeral Services in Columbus, NE | Gass Haney Funeral Homes | https://www.gasshaney.com/",
+      "இலங்கை நடுகல் -> 30 Powerful bible verses about sitting (Full Commentary) | https://biblestudyforyou.com/bible-verses-about-sitting/",
+      "இலங்கை பாறை ஓவியம் -> Time in Manila, Philippines now | https://time.is/Manila",
+      "ஈழம் தொல்லியல் பிராமி -> Marion's Piazza – est 1965 | https://marionspiazza.com/",
+      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
+      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
+      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
+      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
+      "Trincomalee Tamil inscription -> TBC Corporation Expands Multi-Mile© Tires from TBC Corporation Expands | https://www.tbccorp.com/news/multi-mile-tires-from-tbc-corporation-exp",
+      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
+      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
-    "openalex_raw": 725
+    "openalex_raw": 729
   },
   "errors": [
     "ddg 202 இலங்கை தமிழ் கல்வெட்டு",
