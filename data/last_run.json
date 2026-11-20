@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "backfill": false,
   "sources": {
     "news": {
@@ -7,7 +7,7 @@
       "added": 1
     },
     "web": {
-      "found": 0,
+      "found": 1,
       "added": 0
     },
     "ddg": {
@@ -15,7 +15,7 @@
       "added": 0
     },
     "wikipedia": {
-      "found": 49,
+      "found": 48,
       "added": 0
     },
     "ezhuna": {
@@ -27,8 +27,8 @@
       "added": 0
     },
     "openalex": {
-      "found": 97,
-      "added": 1
+      "found": 101,
+      "added": 3
     },
     "crossref": {
       "found": 7,
@@ -36,22 +36,22 @@
     }
   },
   "stats": {
-    "bing_raw": 131,
+    "bing_raw": 137,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft – AI, Cloud, Productivity, Computing, Gaming & Apps | https://www.microsoft.com/en-us",
-      "யாழ்ப்பாணம் தொல்லியல் -> Funeral Services in Columbus, NE | Gass Haney Funeral Homes | https://www.gasshaney.com/",
-      "இலங்கை நடுகல் -> 30 Powerful bible verses about sitting (Full Commentary) | https://biblestudyforyou.com/bible-verses-about-sitting/",
-      "இலங்கை பாறை ஓவியம் -> Time in Manila, Philippines now | https://time.is/Manila",
-      "ஈழம் தொல்லியல் பிராமி -> Marion's Piazza – est 1965 | https://marionspiazza.com/",
+      "இலங்கை தமிழ் கல்வெட்டு -> 10 Best Kids Science Experiment Kits (November 2026) | https://www.kiddofspeed.com/best-kids-science-experiment-kits/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "இலங்கை நடுகல் -> United States Population (2026) - Worldometer | https://www.worldometers.info/world-population/us-population/",
+      "இலங்கை பாறை ஓவியம் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "ஈழம் தொல்லியல் பிராமி -> How Many Days until July 2027? | Countdown | https://days.to/july/2027",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Vanni Eyewear - Made in Italy, for sure from 1987 | https://www.vanniocchiali.com/",
-      "Trincomalee Tamil inscription -> TBC Corporation Expands Multi-Mile© Tires from TBC Corporation Expands | https://www.tbccorp.com/news/multi-mile-tires-from-tbc-corporation-exp",
+      "Vanni archaeology Tamil -> Temu | Explore the Latest Clothing, Beauty, Home, Jewelry & More | https://www.temu.com/",
+      "Trincomalee Tamil inscription -> Top 10 Best Plumbing Near Portland, Oregon - With Real Reviews | https://www.yelp.com/search?cflt=plumbing&find_loc=portland%2C+or",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
-    "openalex_raw": 729
+    "openalex_raw": 736
   },
   "errors": [
     "ddg 202 இலங்கை தமிழ் கல்வெட்டு",
