@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "backfill": false,
   "sources": {
     "news": {
-      "found": 1,
+      "found": 3,
       "added": 1
     },
     "web": {
-      "found": 1,
+      "found": 0,
       "added": 0
     },
     "ddg": {
@@ -15,7 +15,7 @@
       "added": 0
     },
     "wikipedia": {
-      "found": 48,
+      "found": 45,
       "added": 0
     },
     "ezhuna": {
@@ -27,8 +27,8 @@
       "added": 0
     },
     "openalex": {
-      "found": 101,
-      "added": 3
+      "found": 100,
+      "added": 0
     },
     "crossref": {
       "found": 7,
@@ -36,18 +36,18 @@
     }
   },
   "stats": {
-    "bing_raw": 137,
+    "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> 10 Best Kids Science Experiment Kits (November 2026) | https://www.kiddofspeed.com/best-kids-science-experiment-kits/",
-      "யாழ்ப்பாணம் தொல்லியல் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "இலங்கை நடுகல் -> United States Population (2026) - Worldometer | https://www.worldometers.info/world-population/us-population/",
+      "இலங்கை தமிழ் கல்வெட்டு -> Bokep Indo - BokepLik | https://bokeplik.com/category/bokep-indo/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Find Wells Fargo bank and ATM locations in Miami,FL | Wells Fargo | https://locations.wellsfargo.com/fl/miami",
+      "இலங்கை நடுகல் -> 2. Bundesliga | 12. Spieltag - alle 2. Bundesliga Spiele heute | https://www.bundesliga.com/de/2bundesliga/spieltag",
       "இலங்கை பாறை ஓவியம் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "ஈழம் தொல்லியல் பிராமி -> How Many Days until July 2027? | Countdown | https://days.to/july/2027",
+      "ஈழம் தொல்லியல் பிராமி -> 50,000+ Best Cat Photos · 100% Free Download - Pexels | https://www.pexels.com/search/cat/",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
       "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Temu | Explore the Latest Clothing, Beauty, Home, Jewelry & More | https://www.temu.com/",
-      "Trincomalee Tamil inscription -> Top 10 Best Plumbing Near Portland, Oregon - With Real Reviews | https://www.yelp.com/search?cflt=plumbing&find_loc=portland%2C+or",
+      "Vanni archaeology Tamil -> Y2K Futurism | Aesthetics Wiki | Fandom | https://aesthetics.fandom.com/wiki/Y2K_Futurism",
+      "Trincomalee Tamil inscription -> Trincomalee - Wikipedia | https://en.m.wikipedia.org/wiki/Trincomalee",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
