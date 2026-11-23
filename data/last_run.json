@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "backfill": false,
   "sources": {
     "news": {
-      "found": 2,
-      "added": 0
+      "found": 3,
+      "added": 1
     },
     "web": {
       "found": 0,
@@ -15,7 +15,7 @@
       "added": 0
     },
     "wikipedia": {
-      "found": 48,
+      "found": 47,
       "added": 0
     },
     "ezhuna": {
@@ -27,7 +27,7 @@
       "added": 0
     },
     "openalex": {
-      "found": 100,
+      "found": 101,
       "added": 0
     },
     "crossref": {
@@ -38,16 +38,16 @@
   "stats": {
     "bing_raw": 140,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "யாழ்ப்பாணம் தொல்லியல் -> Unable to access favorite porn site, eporner.com, on my home internet  | https://www.reddit.com/r/computerhelp/comments/3rqgor/unable_to_access",
-      "இலங்கை நடுகல் -> 5 Best Collagen Eye Patches, According to Experts in 2025 - ELLE | https://www.elle.com/beauty/makeup-skin-care/g63563429/best-collagen-e",
+      "இலங்கை தமிழ் கல்வெட்டு -> Shipping locations near you | FedEx Charlotte | https://local.fedex.com/en-us/nc/charlotte",
+      "யாழ்ப்பாணம் தொல்லியல் -> Aktuelle Tabelle | 12. Spieltag | Saison 2026/27 - 2. Bundesliga | https://www.bundesliga.com/de/2bundesliga/tabelle",
+      "இலங்கை நடுகல் -> Sesame Street: Two Hours of Elmo's World Compilation - YouTube | https://www.youtube.com/watch?v=koD6ePirTik",
       "இலங்கை பாறை ஓவியம் -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
-      "ஈழம் தொல்லியல் பிராமி -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "ஈழம் தொல்லியல் பிராமி -> WildCraft: Animal Sim Online - Apps on Google Play | https://play.google.com/store/apps/details?id=com.turborocketgames.wil",
       "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
       "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
-      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.m.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> KingBokep | Streaming Video Bokep Terbaru | https://kingbokep.tv/",
-      "Trincomalee Tamil inscription -> Women you could look up to… | Page 9 | XNXX Adult Forum | https://forum.xnxx.com/threads/women-you-could-look-up-to%E2%80%A6.463",
+      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.wikipedia.org/wiki/Jaffna",
+      "Vanni archaeology Tamil -> Convert lbs to kg - Unit Converter | https://www.unitconverters.net/weight-and-mass/lbs-to-kg.htm",
+      "Trincomalee Tamil inscription -> Trincomalee - Wikipedia | https://en.m.wikipedia.org/wiki/Trincomalee",
       "Sri Lanka hero stone -> SRI | https://www.sri.com/",
       "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
