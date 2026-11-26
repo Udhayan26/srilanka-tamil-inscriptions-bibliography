@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "backfill": false,
   "sources": {
     "news": {
@@ -15,7 +15,7 @@
       "added": 0
     },
     "wikipedia": {
-      "found": 49,
+      "found": 48,
       "added": 0
     },
     "ezhuna": {
@@ -27,7 +27,7 @@
       "added": 0
     },
     "openalex": {
-      "found": 100,
+      "found": 97,
       "added": 0
     },
     "crossref": {
@@ -36,22 +36,22 @@
     }
   },
   "stats": {
-    "bing_raw": 140,
+    "bing_raw": 139,
     "bing_sample": [
-      "இலங்கை தமிழ் கல்வெட்டு -> Fox News - Breaking News Updates | Latest News Headlines ... | https://www.foxnews.com/",
-      "யாழ்ப்பாணம் தொல்லியல் -> 90 Days from Today - Date Calculator | https://timedatecalc.com/90-days-from-today",
-      "இலங்கை நடுகல் -> Madonna - Wikipedia | https://en.wikipedia.org/wiki/Madonna",
-      "இலங்கை பாறை ஓவியம் -> Campground Details - Cimarron Canyon, NM - New Mexico State Parks | https://newmexicostateparks.reserveamerica.com/camping/cimarron-canyon",
-      "ஈழம் தொல்லியல் பிராமி -> Coronavirus - Wikipedia | https://en.m.wikipedia.org/wiki/Coronavirus",
-      "Sri Lanka Tamil inscription -> Home | SRI Services | https://sriservices.com/",
-      "Sri Lanka Tamil Brahmi -> Home | SRI Services | https://sriservices.com/",
-      "Jaffna archaeology -> Jaffna - Wikipedia | https://en.wikipedia.org/wiki/Jaffna",
-      "Vanni archaeology Tamil -> Critical Role Rule 34 - Reddit | https://www.reddit.com/r/chastitysnook/",
-      "Trincomalee Tamil inscription -> Trincomalee - Wikipedia | https://en.wikipedia.org/wiki/Trincomalee",
-      "Sri Lanka hero stone -> Home | SRI Services | https://sriservices.com/",
-      "Sri Lanka rock art cave painting -> Home | SRI Services | https://sriservices.com/"
+      "இலங்கை தமிழ் கல்வெட்டு -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "யாழ்ப்பாணம் தொல்லியல் -> Twin Beds for Bedroom Furniture - Walmart.com | https://www.walmart.com/browse/home/twin-beds/4044_103150_102547_91837",
+      "இலங்கை நடுகல் -> Tracking Your Shipment or Packages | FedEx | https://www.fedex.com/en-us/tracking.html",
+      "இலங்கை பாறை ஓவியம் -> Walmart Supercenter in Brownsville, TN | Grocery, Electronics, Toys .. | https://www.walmart.com/store/64-brownsville-tn",
+      "ஈழம் தொல்லியல் பிராமி -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "Sri Lanka Tamil inscription -> SRI | https://www.sri.com/",
+      "Sri Lanka Tamil Brahmi -> SRI | https://www.sri.com/",
+      "Jaffna archaeology -> Tracking Your Shipment or Packages | FedEx | https://www.fedex.com/en-us/tracking.html",
+      "Vanni archaeology Tamil -> Microsoft - Official Home Page | https://www.microsoft.com/en-us/",
+      "Trincomalee Tamil inscription -> Hospital - Wikipedia | https://en.m.wikipedia.org/wiki/Hospital",
+      "Sri Lanka hero stone -> SRI | https://www.sri.com/",
+      "Sri Lanka rock art cave painting -> SRI | https://www.sri.com/"
     ],
-    "openalex_raw": 737
+    "openalex_raw": 741
   },
   "errors": [
     "ddg 202 இலங்கை தமிழ் கல்வெட்டு",
@@ -67,7 +67,6 @@
     "ddg 202 Sri Lanka hero stone",
     "ddg 202 Sri Lanka rock art cave painting",
     "ddg 202 Kantarodai archaeology",
-    "ddg 202 Tamil coins Sri Lanka archaeology",
-    "ReadTimeout https://noolaham.org/wiki/api.php"
+    "ddg 202 Tamil coins Sri Lanka archaeology"
   ]
 }
